@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_pipe_menu>
+	<menu id="xdg-Accessories" label="Accessories">
+		<item label="Calculator">
+			<action name="Execute">
+				<execute>gnome-calculator</execute>
+			</action>
+		</item>
+		<item label="Report a problem...">
+			<action name="Execute">
+				<execute>/usr/share/apport/apport-gtk -c</execute>
+			</action>
+		</item>
+		<item label="Documents">
+			<action name="Execute">
+				<execute>gnome-documents</execute>
+			</action>
+		</item>
+		<item label="Help">
+			<action name="Execute">
+				<execute>yelp</execute>
+			</action>
+		</item>
+		<item label="Books">
+			<action name="Execute">
+				<execute>gnome-books</execute>
+			</action>
+		</item>
+		<item label="Backups">
+			<action name="Execute">
+				<execute>deja-dup --backup</execute>
+			</action>
+		</item>
+		<item label="gedit">
+			<action name="Execute">
+				<execute>gedit --new-document</execute>
+			</action>
+		</item>
+		<item label="Fotografies">
+			<action name="Execute">
+				<execute>gnome-photos</execute>
+			</action>
+		</item>
+		<item label="Passwords and Keys">
+			<action name="Execute">
+				<execute>/usr/bin/seahorse</execute>
+			</action>
+		</item>
+		<item label="Bluetooth Transfer">
+			<action name="Execute">
+				<execute>bluetooth-sendto</execute>
+			</action>
+		</item>
+		<item label="f.lux indicator applet">
+			<action name="Execute">
+				<execute>fluxgui</execute>
+			</action>
+		</item>
+		<item label="Backups">
+			<action name="Execute">
+				<execute>deja-dup --backup</execute>
+			</action>
+		</item>
+		<item label="Files">
+			<action name="Execute">
+				<execute>nautilus --new-window</execute>
+			</action>
+		</item>
+		<item label="Vim">
+			<action name="Execute">
+				<execute>vim</execute>
+			</action>
+		</item>
+		<item label="gedit">
+			<action name="Execute">
+				<execute>gedit --new-document</execute>
+			</action>
+		</item>
+		<item label="Backups">
+			<action name="Execute">
+				<execute>deja-dup --backup</execute>
+			</action>
+		</item>
+		<item label="Files">
+			<action name="Execute">
+				<execute>nautilus --new-window</execute>
+			</action>
+		</item>
+		<item label="Character Map">
+			<action name="Execute">
+				<execute>gucharmap</execute>
+			</action>
+		</item>
+		<item label="Files">
+			<action name="Execute">
+				<execute>nautilus --new-window</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Universal Access" label="Universal Access">
+		<item label="Screen Reader">
+			<action name="Execute">
+				<execute>orca --replace</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Development" label="Programming">
+		<item label="Python (v2.7)">
+			<action name="Execute">
+				<execute>/usr/bin/python2.7</execute>
+			</action>
+		</item>
+		<item label="Python (v3.5)">
+			<action name="Execute">
+				<execute>/usr/bin/python3.5</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Games" label="Games">
+		<item label="PPSSPP">
+			<action name="Execute">
+				<execute>ppsspp --fullscreen</execute>
+			</action>
+		</item>
+		<item label="PCSX">
+			<action name="Execute">
+				<execute>pcsx</execute>
+			</action>
+		</item>
+		<item label="RetroArch">
+			<action name="Execute">
+				<execute>retroarch</execute>
+			</action>
+		</item>
+		<item label="PlayOnLinux">
+			<action name="Execute">
+				<execute>playonlinux</execute>
+			</action>
+		</item>
+		<item label="EmulationStation">
+			<action name="Execute">
+				<execute>emulationstation</execute>
+			</action>
+		</item>
+		<item label="PCSX2">
+			<action name="Execute">
+				<execute>env __GL_THREADED_OPTIMIZATIONS=1 PCSX2</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Graphics" label="Graphics">
+		<item label="Pinta">
+			<action name="Execute">
+				<execute>pinta</execute>
+			</action>
+		</item>
+		<item label="Document Viewer">
+			<action name="Execute">
+				<execute>evince</execute>
+			</action>
+		</item>
+		<item label="Print Preview">
+			<action name="Execute">
+				<execute>evince-previewer</execute>
+			</action>
+		</item>
+		<item label="Blender 2.77+2.77-a-1459879952">
+			<action name="Execute">
+				<execute>blender</execute>
+			</action>
+		</item>
+		<item label="Simple Scan">
+			<action name="Execute">
+				<execute>simple-scan</execute>
+			</action>
+		</item>
+		<item label="ImageMagick (display Q16)">
+			<action name="Execute">
+				<execute>/usr/bin/display-im6</execute>
+			</action>
+		</item>
+		<item label="ImageMagick (display Q16)">
+			<action name="Execute">
+				<execute>/usr/lib/x86_64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Internet" label="Internet">
+		<item label="Desktop Sharing">
+			<action name="Execute">
+				<execute>vino-preferences</execute>
+			</action>
+		</item>
+		<item label="Transmission">
+			<action name="Execute">
+				<execute>transmission-gtk --minimized</execute>
+			</action>
+		</item>
+		<item label="New Window">
+			<action name="Execute">
+				<execute>/usr/bin/google-chrome-stable --incognito</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Multimedia" label="Sound &amp; Video">
+		<item label="gxine">
+			<action name="Execute">
+				<execute>gxine</execute>
+			</action>
+		</item>
+		<item label="Videos">
+			<action name="Execute">
+				<execute>totem --fullscreen</execute>
+			</action>
+		</item>
+		<item label="Kodi media center">
+			<action name="Execute">
+				<execute>kodi --standalone</execute>
+			</action>
+		</item>
+		<item label="Videos">
+			<action name="Execute">
+				<execute>totem --fullscreen</execute>
+			</action>
+		</item>
+		<item label="EasyTAG">
+			<action name="Execute">
+				<execute>easytag</execute>
+			</action>
+		</item>
+		<item label="Música">
+			<action name="Execute">
+				<execute>gnome-music</execute>
+			</action>
+		</item>
+		<item label="vokoscreen">
+			<action name="Execute">
+				<execute>vokoscreen</execute>
+			</action>
+		</item>
+		<item label="Kdenlive">
+			<action name="Execute">
+				<execute>kdenlive</execute>
+			</action>
+		</item>
+		<item label="Audio Tag Tool">
+			<action name="Execute">
+				<execute>tagtool</execute>
+			</action>
+		</item>
+		<item label="guvcview">
+			<action name="Execute">
+				<execute>guvcview</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Office" label="Office">
+		<item label="WPS Writer">
+			<action name="Execute">
+				<execute>/usr/bin/wps</execute>
+			</action>
+		</item>
+		<item label="WPS Spreadsheets">
+			<action name="Execute">
+				<execute>/usr/bin/et</execute>
+			</action>
+		</item>
+		<item label="Document Viewer">
+			<action name="Execute">
+				<execute>evince</execute>
+			</action>
+		</item>
+		<item label="Calendar">
+			<action name="Execute">
+				<execute>gnome-calendar</execute>
+			</action>
+		</item>
+		<item label="Print Preview">
+			<action name="Execute">
+				<execute>evince-previewer</execute>
+			</action>
+		</item>
+		<item label="Contacts">
+			<action name="Execute">
+				<execute>gnome-contacts</execute>
+			</action>
+		</item>
+		<item label="WPS Presentation">
+			<action name="Execute">
+				<execute>/usr/bin/wpp</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-System" label="System Tools">
+		<menu id="xdg-Preferences" label="Preferences">
+			<item label="Desktop Sharing">
+				<action name="Execute">
+					<execute>vino-preferences</execute>
+				</action>
+			</item>
+			<item label="Software &amp; Updates">
+				<action name="Execute">
+					<execute>software-properties-gtk</execute>
+				</action>
+			</item>
+			<item label="Color">
+				<action name="Execute">
+					<execute>gcm-calibrate</execute>
+				</action>
+			</item>
+			<item label="Disks">
+				<action name="Execute">
+					<execute>gnome-disks</execute>
+				</action>
+			</item>
+			<item label="ARandR">
+				<action name="Execute">
+					<execute>arandr</execute>
+				</action>
+			</item>
+			<item label="Backups">
+				<action name="Execute">
+					<execute>deja-dup --backup</execute>
+				</action>
+			</item>
+			<item label="Network Connections">
+				<action name="Execute">
+					<execute>nm-connection-editor</execute>
+				</action>
+			</item>
+			<item label="Startup Applications">
+				<action name="Execute">
+					<execute>gnome-session-properties</execute>
+				</action>
+			</item>
+			<item label="Nautilus scripts manager">
+				<action name="Execute">
+					<execute>nautilus-scripts-manager</execute>
+				</action>
+			</item>
+			<item label="Backups">
+				<action name="Execute">
+					<execute>deja-dup --backup</execute>
+				</action>
+			</item>
+			<item label="Input Method">
+				<action name="Execute">
+					<execute>im-config</execute>
+				</action>
+			</item>
+			<item label="Personal File Sharing">
+				<action name="Execute">
+					<execute>gnome-file-share-properties</execute>
+				</action>
+			</item>
+			<item label="Openbox Configuration Manager">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Additional Drivers">
+				<action name="Execute">
+					<execute>/usr/bin/software-properties-gtk --open-tab=4</execute>
+				</action>
+			</item>
+			<item label="IBus Preferences">
+				<action name="Execute">
+					<execute>ibus-setup</execute>
+				</action>
+			</item>
+			<item label="Tweak Tool">
+				<action name="Execute">
+					<execute>gnome-tweak-tool</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="xdg-Administration" label="Administration">
+			<item label="Startup Disk Creator">
+				<action name="Execute">
+					<execute>usb-creator-gtk</execute>
+				</action>
+			</item>
+			<item label="Synaptic Package Manager">
+				<action name="Execute">
+					<execute>synaptic-pkexec</execute>
+				</action>
+			</item>
+			<item label="xdiagnose">
+				<action name="Execute">
+					<execute>pkexec xdiagnose</execute>
+				</action>
+			</item>
+			<item label="Software Updater">
+				<action name="Execute">
+					<execute>/usr/bin/update-manager</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="GNOME System Monitor">
+			<action name="Execute">
+				<execute>gnome-system-monitor</execute>
+			</action>
+		</item>
+		<item label="AptURL">
+			<action name="Execute">
+				<execute>apturl</execute>
+			</action>
+		</item>
+		<item label="XTerm">
+			<action name="Execute">
+				<execute>xterm</execute>
+			</action>
+		</item>
+		<item label="GDebi Package Installer">
+			<action name="Execute">
+				<execute>gdebi-gtk</execute>
+			</action>
+		</item>
+		<item label="dconf Editor">
+			<action name="Execute">
+				<execute>dconf-editor</execute>
+			</action>
+		</item>
+		<item label="Keyboard Layout">
+			<action name="Execute">
+				<execute>gkbd-keyboard-display</execute>
+			</action>
+		</item>
+		<item label="ICC Profile Installer">
+			<action name="Execute">
+				<execute>/usr/bin/gcm-import</execute>
+			</action>
+		</item>
+		<item label="Root Terminal">
+			<action name="Execute">
+				<execute>gksu /usr/bin/x-terminal-emulator</execute>
+			</action>
+		</item>
+		<item label="WinUSB">
+			<action name="Execute">
+				<execute>winusbgui</execute>
+			</action>
+		</item>
+		<item label="Color Profile Viewer">
+			<action name="Execute">
+				<execute>gcm-viewer</execute>
+			</action>
+		</item>
+		<item label="System Monitor">
+			<action name="Execute">
+				<execute>gnome-system-monitor</execute>
+			</action>
+		</item>
+		<item label="Reactivate HP LaserJet 1018/1020 after reloading paper">
+			<action name="Execute">
+				<execute>/usr/share/foo2zjs/hplj10xx_gui.tcl</execute>
+			</action>
+		</item>
+		<item label="UXTerm">
+			<action name="Execute">
+				<execute>uxterm</execute>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>gnome-terminal</execute>
+			</action>
+		</item>
+		<item label="Color Picker">
+			<action name="Execute">
+				<execute>gcm-picker</execute>
+			</action>
+		</item>
+		<item label="Settings">
+			<action name="Execute">
+				<execute>gnome-control-center --overview</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-System Settings" label="System Settings">
+		<item label="Users">
+			<action name="Execute">
+				<execute>gnome-control-center user-accounts</execute>
+			</action>
+		</item>
+		<item label="Date &amp; Time">
+			<action name="Execute">
+				<execute>gnome-control-center datetime</execute>
+			</action>
+		</item>
+		<item label="Sharing">
+			<action name="Execute">
+				<execute>gnome-control-center sharing</execute>
+			</action>
+		</item>
+		<item label="Bluetooth">
+			<action name="Execute">
+				<execute>gnome-control-center bluetooth</execute>
+			</action>
+		</item>
+		<item label="Printers">
+			<action name="Execute">
+				<execute>system-config-printer</execute>
+			</action>
+		</item>
+		<item label="Power">
+			<action name="Execute">
+				<execute>gnome-control-center power</execute>
+			</action>
+		</item>
+		<item label="Software &amp; Updates">
+			<action name="Execute">
+				<execute>software-properties-gtk</execute>
+			</action>
+		</item>
+		<item label="Universal Access">
+			<action name="Execute">
+				<execute>gnome-control-center universal-access</execute>
+			</action>
+		</item>
+		<item label="Displays">
+			<action name="Execute">
+				<execute>gnome-control-center display</execute>
+			</action>
+		</item>
+		<item label="Keyboard">
+			<action name="Execute">
+				<execute>gnome-control-center keyboard</execute>
+			</action>
+		</item>
+		<item label="Privacy">
+			<action name="Execute">
+				<execute>gnome-control-center privacy</execute>
+			</action>
+		</item>
+		<item label="Network">
+			<action name="Execute">
+				<execute>gnome-control-center network</execute>
+			</action>
+		</item>
+		<item label="Notifications">
+			<action name="Execute">
+				<execute>gnome-control-center notifications</execute>
+			</action>
+		</item>
+		<item label="Color">
+			<action name="Execute">
+				<execute>gnome-control-center color</execute>
+			</action>
+		</item>
+		<item label="Firewall Configuration">
+			<action name="Execute">
+				<execute>gufw</execute>
+			</action>
+		</item>
+		<item label="Sound">
+			<action name="Execute">
+				<execute>gnome-control-center sound</execute>
+			</action>
+		</item>
+		<item label="Search">
+			<action name="Execute">
+				<execute>gnome-control-center search</execute>
+			</action>
+		</item>
+		<item label="Region &amp; Language">
+			<action name="Execute">
+				<execute>gnome-control-center region</execute>
+			</action>
+		</item>
+		<item label="Mouse &amp; Touchpad">
+			<action name="Execute">
+				<execute>gnome-control-center mouse</execute>
+			</action>
+		</item>
+		<item label="Details">
+			<action name="Execute">
+				<execute>gnome-control-center info</execute>
+			</action>
+		</item>
+		<item label="Printers">
+			<action name="Execute">
+				<execute>gnome-control-center printers</execute>
+			</action>
+		</item>
+		<item label="Wacom Tablet">
+			<action name="Execute">
+				<execute>gnome-control-center wacom</execute>
+			</action>
+		</item>
+		<item label="Online Accounts">
+			<action name="Execute">
+				<execute>gnome-control-center online-accounts</execute>
+			</action>
+		</item>
+		<item label="Background">
+			<action name="Execute">
+				<execute>gnome-control-center background</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="xdg-Utilities" label="Utilities">
+		<item label="Registres">
+			<action name="Execute">
+				<execute>gnome-logs</execute>
+			</action>
+		</item>
+		<item label="Archive Manager">
+			<action name="Execute">
+				<execute>file-roller</execute>
+			</action>
+		</item>
+		<item label="Disks">
+			<action name="Execute">
+				<execute>gnome-disks</execute>
+			</action>
+		</item>
+		<item label="Screenshot">
+			<action name="Execute">
+				<execute>gnome-screenshot -a</execute>
+			</action>
+		</item>
+		<item label="Archive Manager">
+			<action name="Execute">
+				<execute>file-roller</execute>
+			</action>
+		</item>
+		<item label="Disk Usage Analyzer">
+			<action name="Execute">
+				<execute>baobab</execute>
+			</action>
+		</item>
+		<item label="Font Viewer">
+			<action name="Execute">
+				<execute>gnome-font-viewer</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_pipe_menu>
