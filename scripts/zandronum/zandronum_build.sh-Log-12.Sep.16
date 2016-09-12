@@ -1,0 +1,1854 @@
+blc@blc:~$ bash zandronum_build.sh
+mkdir: created directory '/home/blc/zandronum_build'
+destination directory: zandronum
+requesting all changes
+adding changesets
+adding manifests
+adding file changes                                                                                                                                    
+added 9707 changesets with 55900 changes to 4528 files                                                                                                 
+updating to branch default
+2789 files updated, 0 files merged, 0 files removed, 0 files unresolved                                                                                
+mkdir: created directory 'zandronum/buildclient'
+mkdir: created directory 'zandronum/buildserver'
+--2016-09-12 08:04:51--  http://zandronum.com/essentials/fmod/fmodapi42416linux64.tar.gz
+Resolving zandronum.com (zandronum.com)... 45.56.67.39
+Connecting to zandronum.com (zandronum.com)|45.56.67.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11631876 (11M) [application/x-gzip]
+Saving to: ‘fmodapi42416linux64.tar.gz’
+
+fmodapi42416linux64.tar.gz            100%[========================================================================>]  11.09M  1.21MB/s    in 11s     
+
+2016-09-12 08:05:02 (1.05 MB/s) - ‘fmodapi42416linux64.tar.gz’ saved [11631876/11631876]
+
+fmodapi42416linux64/
+fmodapi42416linux64/fmoddesignerapi/
+fmodapi42416linux64/fmoddesignerapi/examples/
+fmodapi42416linux64/fmoddesignerapi/examples/effects/
+fmodapi42416linux64/fmoddesignerapi/examples/effects/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/effects/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/info_only/
+fmodapi42416linux64/fmoddesignerapi/examples/info_only/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/info_only/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/load_data/
+fmodapi42416linux64/fmoddesignerapi/examples/load_data/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/load_data/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/max_playbacks/
+fmodapi42416linux64/fmoddesignerapi/examples/max_playbacks/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/max_playbacks/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/media/
+fmodapi42416linux64/fmoddesignerapi/examples/media/build_media_files.sh
+fmodapi42416linux64/fmoddesignerapi/examples/media/ambient_one_four.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/ambient_one_loop.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/ambient_three.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/ambient_two.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/cycle-start.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/cycle-stop.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/cycle-sustain.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/drum-loop.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/interactive_music_1.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/interactive_music_2.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/interactive_music_3.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/interactive_music_6channel.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/max_play_behavior_four.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/max_play_behavior_one.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/max_play_behavior_three.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/max_play_behavior_two.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/note.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/sequence-end.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/sequence-four.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/sequence-one.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/sequence-start.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/sequence-three.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/sequence-two.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/examples.fev
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/idle.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/offhigh.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/offlow.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/offmid.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/onhigh.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/onlow.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/onmid.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/car/Readme Copyright.txt
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/excited.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/flsh-idle-01.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/flsh-idle-02.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/flsh-idle-03.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/flsh-idle-04.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/flsh-idle-05.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-bass-a.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-drums-a.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-drums-b.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-drums-c.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-drums-d.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-a.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-alt-a.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-alt-b.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-alt-c.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-alt-d.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-b.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-c.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/layer-guitar-d.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/relaxed.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-idle-01.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-idle-02.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-idle-03.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-idle-fadeout.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-race-01a.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-race-01b.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-race-02a.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-race-02b.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-race-finish.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/media/music/state-race-start.ogg
+fmodapi42416linux64/fmoddesignerapi/examples/parameters/
+fmodapi42416linux64/fmoddesignerapi/examples/parameters/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/parameters/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/programmer_selected/
+fmodapi42416linux64/fmoddesignerapi/examples/programmer_selected/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/programmer_selected/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/programmer_sound/
+fmodapi42416linux64/fmoddesignerapi/examples/programmer_sound/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/programmer_sound/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/realtime_tweaking/
+fmodapi42416linux64/fmoddesignerapi/examples/realtime_tweaking/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/realtime_tweaking/Makefile
+fmodapi42416linux64/fmoddesignerapi/examples/simple_event/
+fmodapi42416linux64/fmoddesignerapi/examples/simple_event/main.cpp
+fmodapi42416linux64/fmoddesignerapi/examples/simple_event/Makefile
+fmodapi42416linux64/fmoddesignerapi/api/
+fmodapi42416linux64/fmoddesignerapi/api/lib/
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodevent64-4.24.16.so
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodevent64.so
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodevent64L-4.24.16.so
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodevent64L.so
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodeventnet64-4.24.16.so
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodeventnet64.so
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodeventnet64L-4.24.16.so
+fmodapi42416linux64/fmoddesignerapi/api/lib/libfmodeventnet64L.so
+fmodapi42416linux64/fmoddesignerapi/api/inc/
+fmodapi42416linux64/fmoddesignerapi/api/inc/fmod_event.h
+fmodapi42416linux64/fmoddesignerapi/api/inc/fmod_event.hpp
+fmodapi42416linux64/fmoddesignerapi/api/inc/fmod_event_net.h
+fmodapi42416linux64/fmoddesignerapi/README.TXT
+fmodapi42416linux64/tools/
+fmodapi42416linux64/tools/fsbanklib/
+fmodapi42416linux64/tools/fsbanklib/example.cpp
+fmodapi42416linux64/tools/fsbanklib/Makefile
+fmodapi42416linux64/tools/fsbanklib/libfsbankex.a
+fmodapi42416linux64/tools/fsbanklib/fsbanklib.h
+fmodapi42416linux64/tools/fsbanklib/example
+fmodapi42416linux64/examples/
+fmodapi42416linux64/examples/3d/
+fmodapi42416linux64/examples/3d/main.c
+fmodapi42416linux64/examples/3d/main.cpp
+fmodapi42416linux64/examples/3d/Makefile
+fmodapi42416linux64/examples/cdplayer/
+fmodapi42416linux64/examples/cdplayer/main.c
+fmodapi42416linux64/examples/cdplayer/main.cpp
+fmodapi42416linux64/examples/cdplayer/Makefile
+fmodapi42416linux64/examples/channelgroups/
+fmodapi42416linux64/examples/channelgroups/main.c
+fmodapi42416linux64/examples/channelgroups/main.cpp
+fmodapi42416linux64/examples/channelgroups/Makefile
+fmodapi42416linux64/examples/common/
+fmodapi42416linux64/examples/common/wincompat.h
+fmodapi42416linux64/examples/dsp_custom/
+fmodapi42416linux64/examples/dsp_custom/main.c
+fmodapi42416linux64/examples/dsp_custom/main.cpp
+fmodapi42416linux64/examples/dsp_custom/Makefile
+fmodapi42416linux64/examples/dsp_effectperspeaker/
+fmodapi42416linux64/examples/dsp_effectperspeaker/main.c
+fmodapi42416linux64/examples/dsp_effectperspeaker/main.cpp
+fmodapi42416linux64/examples/dsp_effectperspeaker/Makefile
+fmodapi42416linux64/examples/effects/
+fmodapi42416linux64/examples/effects/main.c
+fmodapi42416linux64/examples/effects/main.cpp
+fmodapi42416linux64/examples/effects/Makefile
+fmodapi42416linux64/examples/filecallbacks/
+fmodapi42416linux64/examples/filecallbacks/main.c
+fmodapi42416linux64/examples/filecallbacks/main.cpp
+fmodapi42416linux64/examples/filecallbacks/Makefile
+fmodapi42416linux64/examples/generatetone/
+fmodapi42416linux64/examples/generatetone/main.c
+fmodapi42416linux64/examples/generatetone/main.cpp
+fmodapi42416linux64/examples/generatetone/Makefile
+fmodapi42416linux64/examples/loadfrommemory/
+fmodapi42416linux64/examples/loadfrommemory/main.c
+fmodapi42416linux64/examples/loadfrommemory/main.cpp
+fmodapi42416linux64/examples/loadfrommemory/Makefile
+fmodapi42416linux64/examples/media/
+fmodapi42416linux64/examples/media/c.ogg
+fmodapi42416linux64/examples/media/d.ogg
+fmodapi42416linux64/examples/media/drumloop.wav
+fmodapi42416linux64/examples/media/e.ogg
+fmodapi42416linux64/examples/media/jaguar.wav
+fmodapi42416linux64/examples/media/stereo.ogg
+fmodapi42416linux64/examples/media/swish.wav
+fmodapi42416linux64/examples/media/wave.mp3
+fmodapi42416linux64/examples/multiplesoundcard/
+fmodapi42416linux64/examples/multiplesoundcard/main.c
+fmodapi42416linux64/examples/multiplesoundcard/main.cpp
+fmodapi42416linux64/examples/multiplesoundcard/Makefile
+fmodapi42416linux64/examples/multispeakeroutput/
+fmodapi42416linux64/examples/multispeakeroutput/main.c
+fmodapi42416linux64/examples/multispeakeroutput/main.cpp
+fmodapi42416linux64/examples/multispeakeroutput/Makefile
+fmodapi42416linux64/examples/netstream/
+fmodapi42416linux64/examples/netstream/main.c
+fmodapi42416linux64/examples/netstream/main.cpp
+fmodapi42416linux64/examples/netstream/Makefile
+fmodapi42416linux64/examples/offlinedecoding/
+fmodapi42416linux64/examples/offlinedecoding/main.c
+fmodapi42416linux64/examples/offlinedecoding/main.cpp
+fmodapi42416linux64/examples/offlinedecoding/Makefile
+fmodapi42416linux64/examples/pitchdetection/
+fmodapi42416linux64/examples/pitchdetection/main.c
+fmodapi42416linux64/examples/pitchdetection/main.cpp
+fmodapi42416linux64/examples/pitchdetection/Makefile
+fmodapi42416linux64/examples/playlist/
+fmodapi42416linux64/examples/playlist/main.c
+fmodapi42416linux64/examples/playlist/main.cpp
+fmodapi42416linux64/examples/playlist/Makefile
+fmodapi42416linux64/examples/playsound/
+fmodapi42416linux64/examples/playsound/main.c
+fmodapi42416linux64/examples/playsound/main.cpp
+fmodapi42416linux64/examples/playsound/Makefile
+fmodapi42416linux64/examples/playstream/
+fmodapi42416linux64/examples/playstream/main.c
+fmodapi42416linux64/examples/playstream/main.cpp
+fmodapi42416linux64/examples/playstream/Makefile
+fmodapi42416linux64/examples/plugin_dev/
+fmodapi42416linux64/examples/plugin_dev/codec_raw/
+fmodapi42416linux64/examples/plugin_dev/codec_raw/main.c
+fmodapi42416linux64/examples/plugin_dev/codec_raw/Makefile
+fmodapi42416linux64/examples/plugin_dev/dsp_gain/
+fmodapi42416linux64/examples/plugin_dev/dsp_gain/main.c
+fmodapi42416linux64/examples/plugin_dev/dsp_gain/Makefile
+fmodapi42416linux64/examples/readtags/
+fmodapi42416linux64/examples/readtags/main.c
+fmodapi42416linux64/examples/readtags/main.cpp
+fmodapi42416linux64/examples/readtags/Makefile
+fmodapi42416linux64/examples/realtimestitching/
+fmodapi42416linux64/examples/realtimestitching/main.c
+fmodapi42416linux64/examples/realtimestitching/main.cpp
+fmodapi42416linux64/examples/realtimestitching/Makefile
+fmodapi42416linux64/examples/recording/
+fmodapi42416linux64/examples/recording/main.c
+fmodapi42416linux64/examples/recording/main.cpp
+fmodapi42416linux64/examples/recording/Makefile
+fmodapi42416linux64/examples/recordtodisk/
+fmodapi42416linux64/examples/recordtodisk/main.c
+fmodapi42416linux64/examples/recordtodisk/main.cpp
+fmodapi42416linux64/examples/recordtodisk/Makefile
+fmodapi42416linux64/examples/ripnetstream/
+fmodapi42416linux64/examples/ripnetstream/main.c
+fmodapi42416linux64/examples/ripnetstream/main.cpp
+fmodapi42416linux64/examples/ripnetstream/Makefile
+fmodapi42416linux64/examples/submixing/
+fmodapi42416linux64/examples/submixing/main.c
+fmodapi42416linux64/examples/submixing/main.cpp
+fmodapi42416linux64/examples/submixing/Makefile
+fmodapi42416linux64/examples/useplugins/
+fmodapi42416linux64/examples/useplugins/main.c
+fmodapi42416linux64/examples/useplugins/main.cpp
+fmodapi42416linux64/examples/useplugins/Makefile
+fmodapi42416linux64/examples/usercreatedsound/
+fmodapi42416linux64/examples/usercreatedsound/main.c
+fmodapi42416linux64/examples/usercreatedsound/main.cpp
+fmodapi42416linux64/examples/usercreatedsound/Makefile
+fmodapi42416linux64/api/
+fmodapi42416linux64/api/lib/
+fmodapi42416linux64/api/lib/libfmodex64-4.24.16.so
+fmodapi42416linux64/api/lib/libfmodex64.so
+fmodapi42416linux64/api/lib/libfmodex64L-4.24.16.so
+fmodapi42416linux64/api/lib/libfmodex64L.so
+fmodapi42416linux64/api/lib/libfmodexp64-4.24.16.so
+fmodapi42416linux64/api/lib/libfmodexp64.so
+fmodapi42416linux64/api/plugins/
+fmodapi42416linux64/api/plugins/codec_mpeg64.so
+fmodapi42416linux64/api/plugins/codec_fsb.so
+fmodapi42416linux64/api/plugins/codec_wav64.so
+fmodapi42416linux64/api/plugins/codec_aiff64.so
+fmodapi42416linux64/api/plugins/codec_cdda64.so
+fmodapi42416linux64/api/plugins/codec_oggvorbis64.so
+fmodapi42416linux64/api/plugins/codec_raw64.so
+fmodapi42416linux64/api/plugins/codec_tag64.so
+fmodapi42416linux64/api/plugins/codec_mod64.so
+fmodapi42416linux64/api/plugins/codec_it64.so
+fmodapi42416linux64/api/plugins/codec_s3m64.so
+fmodapi42416linux64/api/plugins/codec_xm64.so
+fmodapi42416linux64/api/plugins/codec_dls64.so
+fmodapi42416linux64/api/plugins/codec_midi64.so
+fmodapi42416linux64/api/plugins/codec_sf264.so
+fmodapi42416linux64/api/plugins/codec_playlist64.so
+fmodapi42416linux64/api/plugins/dsp_oscillator64.so
+fmodapi42416linux64/api/plugins/dsp_lowpass64.so
+fmodapi42416linux64/api/plugins/dsp_lowpass264.so
+fmodapi42416linux64/api/plugins/dsp_highpass64.so
+fmodapi42416linux64/api/plugins/dsp_echo64.so
+fmodapi42416linux64/api/plugins/dsp_itecho64.so
+fmodapi42416linux64/api/plugins/dsp_flange64.so
+fmodapi42416linux64/api/plugins/dsp_distortion64.so
+fmodapi42416linux64/api/plugins/dsp_normalize64.so
+fmodapi42416linux64/api/plugins/dsp_parameq64.so
+fmodapi42416linux64/api/plugins/dsp_pitchshift64.so
+fmodapi42416linux64/api/plugins/dsp_chorus64.so
+fmodapi42416linux64/api/plugins/dsp_reverb64.so
+fmodapi42416linux64/api/plugins/dsp_sfxreverb64.so
+fmodapi42416linux64/api/plugins/dsp_compressor64.so
+fmodapi42416linux64/api/plugins/output_oss64.so
+fmodapi42416linux64/api/plugins/output_alsa64.so
+fmodapi42416linux64/api/plugins/output_esd64.so
+fmodapi42416linux64/api/plugins/output_nosound64.so
+fmodapi42416linux64/api/plugins/output_wavwriter64.so
+fmodapi42416linux64/api/inc/
+fmodapi42416linux64/api/inc/fmod.h
+fmodapi42416linux64/api/inc/fmod.hpp
+fmodapi42416linux64/api/inc/fmod_codec.h
+fmodapi42416linux64/api/inc/fmod_dsp.h
+fmodapi42416linux64/api/inc/fmod_errors.h
+fmodapi42416linux64/api/inc/fmod_output.h
+fmodapi42416linux64/api/inc/fmod_memoryinfo.h
+fmodapi42416linux64/api/inc/fmodlinux.h
+fmodapi42416linux64/documentation/
+fmodapi42416linux64/documentation/FMOD Event System - Best Practices For Programmers.pdf
+fmodapi42416linux64/documentation/fmodex.chm
+fmodapi42416linux64/documentation/LICENSE.TXT
+fmodapi42416linux64/documentation/revision.txt
+fmodapi42416linux64/Makefile
+make: *** No rule to make target 'clean'.  Stop.
+-- The C compiler identification is GNU 6.2.0
+-- The CXX compiler identification is GNU 6.2.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.6") 
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so  
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
+-- Found GME: /usr/lib/x86_64-linux-gnu/libgme.so  
+-- Using system zlib
+-- Using system jpeg library
+-- Using system bzip2 library
+-- Using internal gme library
+-- Performing Test HAVE_NO_ARRAY_BOUNDS
+-- Performing Test HAVE_NO_ARRAY_BOUNDS - Success
+-- Performing Test __LIBGME_TEST_VISIBILITY
+-- Performing Test __LIBGME_TEST_VISIBILITY - Success
+-- Looking for strnicmp
+-- Looking for strnicmp - not found
+-- SQLite: downloading the archive...
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 25% complete]
+-- [download 26% complete]
+-- [download 27% complete]
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 45% complete]
+-- [download 46% complete]
+-- [download 47% complete]
+-- [download 48% complete]
+-- [download 49% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 52% complete]
+-- [download 53% complete]
+-- [download 54% complete]
+-- [download 55% complete]
+-- [download 56% complete]
+-- [download 57% complete]
+-- [download 58% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 65% complete]
+-- [download 66% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 69% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 80% complete]
+-- [download 81% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 84% complete]
+-- [download 85% complete]
+-- [download 86% complete]
+-- [download 87% complete]
+-- [download 88% complete]
+-- [download 89% complete]
+-- [download 90% complete]
+-- [download 91% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 97% complete]
+-- [download 98% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- SQLite: saving the source files into the 'sqlite' directory.
+-- SQLite: done.
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strndup
+-- Looking for strndup - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- /usr/include
+-- /usr/include
+-- /home/blc/zandronum_build/zandronum/lzma/C
+-- Looking for itoa
+-- Looking for itoa - not found
+-- Performing Test DUMB_CAN_USE_SSE
+-- Performing Test DUMB_CAN_USE_SSE - Success
+CMake Warning (dev) at gdtoa/CMakeLists.txt:22 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "arithchk".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at gdtoa/CMakeLists.txt:31 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "qnan".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  wadsrc/CMakeLists.txt:3 (add_pk3)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  wadsrc_bm/CMakeLists.txt:3 (add_pk3)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at wadsrc_st/CMakeLists.txt:3 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  wadsrc_st/CMakeLists.txt:5 (add_pk3)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.5.2", minimum required is "3") 
+-- Checking for module 'gtk+-2.0'
+--   Found gtk+-2.0, version 2.24.30
+-- Found Xcursor at /usr/lib/x86_64-linux-gnu/libXcursor.so
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found SDL: /usr/lib/x86_64-linux-gnu/libSDLmain.a;/usr/lib/x86_64-linux-gnu/libSDL.so;-lpthread (found version "1.2.15") 
+-- FMOD include files found at /home/blc/zandronum_build/zandronum/fmodapi42416linux64/api/inc
+-- FMOD library found at /home/blc/zandronum_build/zandronum/fmodapi42416linux64/api/lib/libfmodex64-4.24.16.so
+-- Found FluidSynth: /usr/lib/x86_64-linux-gnu/libfluidsynth.so  
+-- Performing Test CAN_DO_CPP14
+-- Performing Test CAN_DO_CPP14 - Success
+-- Looking for filelength
+-- Looking for filelength - not found
+-- Looking for strupr
+-- Looking for strupr - not found
+-- Looking for stricmp
+-- Looking for stricmp - not found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Performing Test HAS_VA_COPY
+-- Performing Test HAS_VA_COPY - Success
+CMake Warning (dev) at src/CMakeLists.txt:641 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "updaterevision".  Use
+  the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Fluid synth libs: /usr/lib/x86_64-linux-gnu/libfluidsynth.so
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.0.2g") 
+CMake Warning (dev) at src/CMakeLists.txt:785 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "lemon".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at src/CMakeLists.txt:786 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "re2c".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+CMake Warning (dev) at gdtoa/CMakeLists.txt:48 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "/gd_qnan.h" of target "gdtoa" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at gdtoa/CMakeLists.txt:48 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target
+  "/home/blc/zandronum_build/zandronum/buildclient/gdtoa/arith.h" of target
+  "gdtoa" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/blc/zandronum_build/zandronum/buildclient
+Scanning dependencies of target gme
+[  0%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Blip_Buffer.cpp.o
+[  0%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Classic_Emu.cpp.o
+[  0%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Data_Reader.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Dual_Resampler.cpp.o
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Dual_Resampler.cpp: In member function ‘void Dual_Resampler::play_frame_(Blip_Buffer&, Dual_Resampler::dsample_t*)’:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Dual_Resampler.cpp:72:7: warning: unused variable ‘count’ [-Wunused-variable]
+  long count = resampler.read( sample_buf.begin(), sample_buf_size );
+       ^~~~~
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Effects_Buffer.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Fir_Resampler.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/gme.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gme_File.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/M3u_Playlist.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Multi_Buffer.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Music_Emu.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ay_Apu.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ym2612_Emu.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sms_Apu.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ay_Cpu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ay_Emu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gb_Apu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gb_Cpu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gb_Oscs.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gbs_Emu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gym_Emu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Hes_Apu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Hes_Cpu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Hes_Emu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Kss_Cpu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Kss_Emu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Kss_Scc_Apu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Apu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Cpu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Fme7_Apu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Namco_Apu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Oscs.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Vrc6_Apu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nsf_Emu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nsfe_Emu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sap_Apu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sap_Cpu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sap_Emu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Snes_Spc.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Cpu.cpp.o
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.cpp: In member function ‘void Snes_Spc::cpu_write(int, int, Snes_Spc::rel_time_t)’:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.cpp:438:39: warning: left shift of negative value [-Wshift-negative-value]
+    if ( ((~0x2F00 << (bits_in_int - 16)) << reg) < 0 ) // 36%
+                                       ^
+In file included from /home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.cpp:565:0:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.h: In member function ‘BOOST::uint8_t* Snes_Spc::run_until_(Snes_Spc::time_t)’:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.h:298:40: warning: left shift of negative value [-Wshift-negative-value]
+     if ( ((~0x2F00 << (bits_in_int - 16)) << i) < 0 ) // 12%
+                                        ^
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Dsp.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Emu.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Filter.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Vgm_Emu.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Vgm_Emu_Impl.cpp.o
+[  8%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ym2413_Emu.cpp.o
+[  8%] Linking CXX static library libgme.a
+[  8%] Built target gme
+Scanning dependencies of target GeoIP
+[  8%] Building C object GeoIP/CMakeFiles/GeoIP.dir/GeoIP.o
+/home/blc/zandronum_build/zandronum/GeoIP/GeoIP.c: In function ‘_check_mtime’:
+/home/blc/zandronum_build/zandronum/GeoIP/GeoIP.c:629:10: warning: implicit declaration of function ‘gettimeofday’ [-Wimplicit-function-declaration]
+          gettimeofday(&t, NULL);
+          ^~~~~~~~~~~~
+[  8%] Linking C static library libGeoIP.a
+[  8%] Built target GeoIP
+Scanning dependencies of target updaterevision
+[  9%] Building C object tools/updaterevision/CMakeFiles/updaterevision.dir/updaterevision.o
+[  9%] Linking C executable updaterevision
+[  9%] Built target updaterevision
+Scanning dependencies of target revision_check
+src/gitinfo.h updated to commit ZA_2.1.2-541-0c331ba1c070.
+[  9%] Built target revision_check
+Scanning dependencies of target master-97
+[  9%] Building CXX object masterserver/CMakeFiles/master-97.dir/main.o
+[  9%] Building CXX object masterserver/CMakeFiles/master-97.dir/network.o
+[  9%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/gitinfo.o
+[  9%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/networkshared.o
+[  9%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/platform.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/bitreader.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/bitwriter.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/huffcodec.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/huffman.o
+[ 10%] Linking CXX executable master-97
+[ 10%] Built target master-97
+Scanning dependencies of target sqlite3
+[ 10%] Building C object sqlite/CMakeFiles/sqlite3.dir/sqlite3.o
+[ 10%] Linking C static library libsqlite3.a
+[ 10%] Built target sqlite3
+Scanning dependencies of target lzma
+[ 10%] Building C object lzma/CMakeFiles/lzma.dir/C/7zBuf.o
+[ 10%] Building C object lzma/CMakeFiles/lzma.dir/C/7zCrc.o
+[ 11%] Building C object lzma/CMakeFiles/lzma.dir/C/7zCrcOpt.o
+[ 11%] Building C object lzma/CMakeFiles/lzma.dir/C/7zDec.o
+[ 11%] Building C object lzma/CMakeFiles/lzma.dir/C/7zIn.o
+[ 11%] Building C object lzma/CMakeFiles/lzma.dir/C/7zStream.o
+[ 11%] Building C object lzma/CMakeFiles/lzma.dir/C/Bcj2.o
+[ 11%] Building C object lzma/CMakeFiles/lzma.dir/C/Bra.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/Bra86.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/CpuArch.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/LzFind.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/Lzma2Dec.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/LzmaDec.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/LzmaEnc.o
+/home/blc/zandronum_build/zandronum/lzma/C/LzmaEnc.c: In function ‘LzmaEnc_Alloc’:
+/home/blc/zandronum_build/zandronum/lzma/C/LzmaEnc.c:1900:8: warning: variable ‘btMode’ set but not used [-Wunused-but-set-variable]
+   Bool btMode;
+        ^~~~~~
+[ 13%] Linking C static library liblzma.a
+[ 13%] Built target lzma
+Scanning dependencies of target lemon
+[ 13%] Building C object tools/lemon/CMakeFiles/lemon.dir/lemon.o
+[ 13%] Linking C executable lemon
+/home/blc/zandronum_build/zandronum/buildclient/tools/lemon
+[ 13%] Built target lemon
+Scanning dependencies of target re2c
+[ 13%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/actions.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/code.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/dfa.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/main.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/mbo_getopt.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/parser.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/scanner.o
+[ 15%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/substr.o
+[ 15%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/translate.o
+[ 15%] Linking CXX executable re2c
+[ 15%] Built target re2c
+Scanning dependencies of target zipdir
+[ 15%] Building C object tools/zipdir/CMakeFiles/zipdir.dir/zipdir.o
+[ 16%] Linking C executable zipdir
+[ 16%] Built target zipdir
+Scanning dependencies of target dumb
+[ 16%] Building C object dumb/CMakeFiles/dumb.dir/src/core/atexit.o
+[ 17%] Building C object dumb/CMakeFiles/dumb.dir/src/core/duhlen.o
+[ 17%] Building C object dumb/CMakeFiles/dumb.dir/src/core/duhtag.o
+[ 17%] Building C object dumb/CMakeFiles/dumb.dir/src/core/dumbfile.o
+[ 17%] Building C object dumb/CMakeFiles/dumb.dir/src/core/loadduh.o
+[ 17%] Building C object dumb/CMakeFiles/dumb.dir/src/core/makeduh.o
+[ 17%] Building C object dumb/CMakeFiles/dumb.dir/src/core/rawsig.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/readduh.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/register.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/rendduh.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/rendsig.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/unload.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/barray.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/blip_buf.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/clickrem.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/memfile.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/resample.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/riff.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/sampbuf.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/silence.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/stdfile.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itload.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itload2.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itmisc.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itorder.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itread.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/itread.c: In function ‘it_load_sigdata’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/itread.c:1000:6: warning: variable ‘cwt’ set but not used [-Wunused-but-set-variable]
+  int cwt, cmwt;
+      ^~~
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itread2.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itrender.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itunload.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/it/load669.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/it/load6692.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadasy.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadasy2.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmod.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmod2.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmtm.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmtm2.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadokt.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadokt2.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadoldpsm.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadoldpsm2.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadpsm.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadpsm2.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadptm.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadptm2.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadriff.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadriff2.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loads3m.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loads3m2.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadstm.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadstm2.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadxm.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadxm2.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/ptmeffect.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/read669.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/read6692.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readam.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readasy.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readdsmf.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readmod.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readmod2.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readmtm.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readokt.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readokt2.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readoldpsm.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readpsm.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c: In function ‘it_psm_process_sample’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c:61:6: warning: variable ‘panpos’ set but not used [-Wunused-but-set-variable]
+  int panpos;
+      ^~~~~~
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c: In function ‘it_psm_load_sigdata’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c:475:6: warning: variable ‘first_pattern’ set but not used [-Wunused-but-set-variable]
+  int first_pattern;
+      ^~~~~~~~~~~~~
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readptm.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readriff.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/reads3m.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/reads3m.c: In function ‘it_s3m_load_sigdata’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/reads3m.c:464:6: warning: variable ‘flags’ set but not used [-Wunused-but-set-variable]
+  int flags, ffi;
+      ^~~~~
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/reads3m2.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readstm.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readstm2.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readxm.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/readxm.c: In function ‘it_xm_read_sample_data’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/readxm.c:766:6: warning: variable ‘n_channels’ set but not used [-Wunused-but-set-variable]
+  int n_channels;
+      ^~~~~~~~~~
+[ 29%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readxm2.o
+[ 29%] Building C object dumb/CMakeFiles/dumb.dir/src/it/xmeffect.o
+[ 29%] Linking C static library libdumb.a
+[ 29%] Built target dumb
+Scanning dependencies of target arithchk
+[ 29%] Building C object gdtoa/CMakeFiles/arithchk.dir/arithchk.o
+[ 29%] Linking C executable arithchk
+[ 29%] Built target arithchk
+[ 29%] Generating arith.h
+Scanning dependencies of target qnan
+[ 29%] Building C object gdtoa/CMakeFiles/qnan.dir/qnan.o
+[ 29%] Linking C executable qnan
+[ 29%] Built target qnan
+[ 29%] Generating gd_qnan.h
+Scanning dependencies of target gdtoa
+[ 29%] Building C object gdtoa/CMakeFiles/gdtoa.dir/dmisc.o
+[ 30%] Building C object gdtoa/CMakeFiles/gdtoa.dir/dtoa.o
+[ 30%] Building C object gdtoa/CMakeFiles/gdtoa.dir/misc.o
+[ 30%] Linking C static library libgdtoa.a
+[ 30%] Built target gdtoa
+Scanning dependencies of target protocolspec
+network/servercommands.h written
+network/servercommands.cpp written
+[ 30%] Built target protocolspec
+[ 30%] Generating xlat_parser.c, xlat_parser.h
+[ 30%] Generating sc_man_scanner.h
+Scanning dependencies of target zdoom
+[ 30%] Building CXX object src/CMakeFiles/zdoom.dir/__autostart.o
+[ 30%] Building C object src/CMakeFiles/zdoom.dir/sdl/crashcatcher.o
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c: In function ‘cc_install_handlers’:
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c:441:3: warning: ignoring return value of ‘getcwd’, declared with attribute warn_unused_result [-Wunused-result]
+   getcwd(argv0, sizeof(argv0));
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c: In function ‘crash_handler’:
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c:420:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+   system(buf);
+   ^~~~~~~~~~~
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c: In function ‘sys_info’:
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c:179:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  system("echo \"System: `uname -a`\"");
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c: In function ‘gdb_info’:
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c:159:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+   system(cmd_buf);
+   ^~~~~~~~~~~~~~~
+[ 31%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/hardware.o
+[ 31%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_cd.o
+[ 31%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_input.o
+[ 31%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_joystick.o
+[ 31%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_main.o
+/home/blc/zandronum_build/zandronum/src/sdl/i_main.cpp: In function ‘int main(int, char**)’:
+/home/blc/zandronum_build/zandronum/src/sdl/i_main.cpp:254:21: warning: ignoring return value of ‘int seteuid(__uid_t)’, declared with attribute warn_unused_result [-Wunused-result]
+  seteuid (getuid ());
+                     ^
+[ 31%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_movie.o
+[ 32%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_system.o
+/home/blc/zandronum_build/zandronum/src/sdl/i_system.cpp: In function ‘unsigned int I_MakeRNGSeed()’:
+/home/blc/zandronum_build/zandronum/src/sdl/i_system.cpp:869:34: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+   read(file, &seed, sizeof(seed));
+                                  ^
+[ 32%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/sdlvideo.o
+[ 32%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/sdlglvideo.o
+[ 32%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/st_start.o
+[ 32%] Building CXX object src/CMakeFiles/zdoom.dir/x86.o
+[ 32%] Building CXX object src/CMakeFiles/zdoom.dir/actorptrselect.o
+[ 33%] Building CXX object src/CMakeFiles/zdoom.dir/am_map.o
+[ 33%] Building CXX object src/CMakeFiles/zdoom.dir/announcer.o
+[ 33%] Building CXX object src/CMakeFiles/zdoom.dir/astar.o
+[ 33%] Building CXX object src/CMakeFiles/zdoom.dir/botcommands.o
+/home/blc/zandronum_build/zandronum/src/botcommands.cpp: In function ‘void botcmd_GetDistanceToEnemy(CSkullBot*)’:
+/home/blc/zandronum_build/zandronum/src/botcommands.cpp:1847:87: warning: ordered comparison of pointer with integer zero [-Wextra]
+  if (( pBot->m_ulPlayerEnemy != MAXPLAYERS ) && ( players[pBot->m_ulPlayerEnemy].mo > 0 ))
+                                                                                       ^
+[ 33%] Building CXX object src/CMakeFiles/zdoom.dir/botpath.o
+[ 33%] Building CXX object src/CMakeFiles/zdoom.dir/bots.o
+/home/blc/zandronum_build/zandronum/src/bots.cpp: In member function ‘void CSkullBot::HandleAiming()’:
+/home/blc/zandronum_build/zandronum/src/bots.cpp:3391:31: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+     while ( (LONG)AngleRandom < 0 )
+             ~~~~~~~~~~~~~~~~~~^~~
+[ 33%] Building CXX object src/CMakeFiles/zdoom.dir/browser.o
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/callvote.o
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/campaign.o
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/c_bind.o
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/c_cmds.o
+/home/blc/zandronum_build/zandronum/src/c_cmds.cpp: In function ‘void Cmd_dir(FCommandLine&, APlayerPawn*, int)’:
+/home/blc/zandronum_build/zandronum/src/c_cmds.cpp:1055:16: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  chdir (curdir);
+                ^
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/c_console.o
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/c_cvars.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/c_dispatch.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/c_expr.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/chat.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/cl_commands.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/cl_demo.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/cl_main.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/cl_pred.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/cl_statistics.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/cmdlib.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/colormatcher.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/compatibility.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/configfile.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/d_dehacked.o
+/home/blc/zandronum_build/zandronum/src/d_dehacked.cpp: In function ‘bool D_LoadDehFile(const char*)’:
+/home/blc/zandronum_build/zandronum/src/d_dehacked.cpp:2418:38: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread(PatchFile, 1, PatchSize, deh);
+                                      ^
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/d_iwad.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/d_main.o
+/home/blc/zandronum_build/zandronum/src/d_main.cpp: In function ‘void D_AddDirectory(const char*)’:
+/home/blc/zandronum_build/zandronum/src/d_main.cpp:2016:17: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+   chdir (curdir);
+                 ^
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/d_net.o
+/home/blc/zandronum_build/zandronum/src/d_net.cpp: In function ‘bool DoArbitrate(void*)’:
+/home/blc/zandronum_build/zandronum/src/d_net.cpp:1384:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (version != (0xFF0000 | NETGAMEVERSION))
+         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/d_netinfo.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/d_protocol.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/deathmatch.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/decallib.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/dobject.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/dobjgc.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/dobjtype.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/domination.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/doomdef.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/doomstat.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/dsectoreffect.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/dthinker.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/duel.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/f_wipe.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/farchive.o
+/home/blc/zandronum_build/zandronum/src/farchive.cpp: In member function ‘void FCompressedFile::PostOpen()’:
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:195:28: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread (sig, 4, 1, m_File);
+                            ^
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:209:43: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fread (sizes, sizeof(DWORD), 2, m_File);
+                                           ^
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:214:38: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fread (m_Buffer+8, len, 1, m_File);
+                                      ^
+/home/blc/zandronum_build/zandronum/src/farchive.cpp: In constructor ‘FPNGChunkFile::FPNGChunkFile(FILE*, DWORD, size_t)’:
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:599:39: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fread (m_Buffer, chunklen, 1, m_File);
+                                       ^
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/files.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/g_game.o
+/home/blc/zandronum_build/zandronum/src/g_game.cpp: In function ‘void G_DoLoadGame()’:
+/home/blc/zandronum_build/zandronum/src/g_game.cpp:4409:31: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread (&time, 8, 1, stdfile);
+                               ^
+/home/blc/zandronum_build/zandronum/src/g_game.cpp:4444:48: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fread (&multiplayerEmulation, 1, 1, stdfile);
+                                                ^
+/home/blc/zandronum_build/zandronum/src/g_game.cpp:4456:31: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread (&next, 1, 1, stdfile);
+                               ^
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/g_hub.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/g_level.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/g_mapinfo.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/g_skill.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/gameconfigfile.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/gamemode.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/gi.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/gitinfo.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/i_net.o
+/home/blc/zandronum_build/zandronum/src/i_net.cpp: In function ‘bool Host_CheckForConnects(void*)’:
+/home/blc/zandronum_build/zandronum/src/i_net.cpp:543:44: warning: array subscript is above array bounds [-Warray-bounds]
+      sendaddress[node] = sendaddress[node+1];
+                          ~~~~~~~~~~~~~~~~~~^
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/info.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/invasion.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/joinqueue.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/keysections.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/lastmanstanding.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/lumpconfigfile.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/m_alloc.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/m_argv.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/m_bbox.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/m_cheat.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/m_joy.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/m_misc.o
+/home/blc/zandronum_build/zandronum/src/m_misc.cpp: In function ‘void M_FindResponseFile()’:
+/home/blc/zandronum_build/zandronum/src/m_misc.cpp:209:35: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+      fread (file, size, 1, handle);
+                                   ^
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/m_oldrandom.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/m_png.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/m_random.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/m_specialpaths.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/maprotation.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/memarena.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/md5.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/medal.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/name.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/network.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/networkshared.o
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp: In member function ‘void NETADDRESS_s::LoadFromSocketAddress(const sockaddr_in&)’:
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp:627:17: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *(int *)&this->abIP = *(const int *)&sockaddr.sin_addr;
+                 ^~~~
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp: In member function ‘sockaddr_in NETADDRESS_s::ToSocketAddress() const’:
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp:637:44: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *(int *)&result.sin_addr = *(const int *)&abIP;
+                                            ^~~~
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/network/cl_auth.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/network/netcommand.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/network/nettraffic.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/network/packetarchive.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/network/servercommands.o
+/home/blc/zandronum_build/zandronum/src/network/servercommands.cpp: In function ‘bool CLIENT_ParseServerCommand(SVC, BYTESTREAM_s*)’:
+/home/blc/zandronum_build/zandronum/src/network/servercommands.cpp:2549:56: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+            reinterpret_cast<AActor *&>( command.weapon ),
+                                                        ^
+/home/blc/zandronum_build/zandronum/src/network/servercommands.cpp:2598:54: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+            reinterpret_cast<AActor *&>( command.item ),
+                                                      ^
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/network/srp.o
+/home/blc/zandronum_build/zandronum/src/network/srp.cpp: In function ‘void init_random()’:
+/home/blc/zandronum_build/zandronum/src/network/srp.cpp:439:45: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(buff, sizeof(buff), 1, fp);
+                                             ^
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/network/sv_auth.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_classify_nosse2.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_events.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_extract.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_gl.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_utility.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/p_3dfloors.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/p_3dmidtex.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/p_acs.o
+/home/blc/zandronum_build/zandronum/src/p_acs.cpp: In member function ‘int DLevelScript::RunScript()’:
+/home/blc/zandronum_build/zandronum/src/p_acs.cpp:9929:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if ( NETWORK_GetState( ) == NETSTATE_SERVER )
+       ^~
+/home/blc/zandronum_build/zandronum/src/p_acs.cpp:9932:8: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+        activator->SetState (state);
+        ^~~~~~~~~
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/p_buildmap.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/p_ceiling.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/p_conversation.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/p_doors.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/p_effect.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/p_enemy.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/p_floor.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/p_glnodes.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/p_interaction.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/p_lights.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/p_linkedsectors.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/p_lnspec.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/p_map.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/p_maputl.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/p_mobj.o
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp: In member function ‘bool AActor::AdjustReflectionAngle(AActor*, angle_t&)’:
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp:3800:33: error: invalid operands of types ‘__gnu_cxx::__enable_if<true, double>::__type {aka double}’ and ‘int’ to binary ‘operator>>’
+   if (abs (angle - thing->angle)>>24 > 45)
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp: In function ‘AActor* P_SpawnPlayerMissile(AActor*, fixed_t, fixed_t, fixed_t, const PClass*, angle_t, AActor**, AActor**, bool, bool, bool)’:
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp:7347:38: warning: left shift of negative value [-Wshift-negative-value]
+  static const int angdiff[3] = { -1<<26, 1<<26, 0 };
+                                      ^~
+src/CMakeFiles/zdoom.dir/build.make:3004: recipe for target 'src/CMakeFiles/zdoom.dir/p_mobj.o' failed
+make[2]: *** [src/CMakeFiles/zdoom.dir/p_mobj.o] Error 1
+CMakeFiles/Makefile2:995: recipe for target 'src/CMakeFiles/zdoom.dir/all' failed
+make[1]: *** [src/CMakeFiles/zdoom.dir/all] Error 2
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2
+make: *** No rule to make target 'clean'.  Stop.
+-- The C compiler identification is GNU 6.2.0
+-- The CXX compiler identification is GNU 6.2.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.6") 
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so  
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
+-- Found GME: /usr/lib/x86_64-linux-gnu/libgme.so  
+-- Using system zlib
+-- Using system jpeg library
+-- Using system bzip2 library
+-- Using internal gme library
+-- Performing Test HAVE_NO_ARRAY_BOUNDS
+-- Performing Test HAVE_NO_ARRAY_BOUNDS - Success
+-- Performing Test __LIBGME_TEST_VISIBILITY
+-- Performing Test __LIBGME_TEST_VISIBILITY - Success
+-- Looking for strnicmp
+-- Looking for strnicmp - not found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strndup
+-- Looking for strndup - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- /usr/include
+-- /usr/include
+-- /home/blc/zandronum_build/zandronum/lzma/C
+-- Looking for itoa
+-- Looking for itoa - not found
+-- Performing Test DUMB_CAN_USE_SSE
+-- Performing Test DUMB_CAN_USE_SSE - Success
+CMake Warning (dev) at gdtoa/CMakeLists.txt:22 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "arithchk".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at gdtoa/CMakeLists.txt:31 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "qnan".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  wadsrc/CMakeLists.txt:3 (add_pk3)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  wadsrc_bm/CMakeLists.txt:3 (add_pk3)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at wadsrc_st/CMakeLists.txt:3 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "zipdir".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  wadsrc_st/CMakeLists.txt:5 (add_pk3)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.5.2", minimum required is "3") 
+-- Found Xcursor at /usr/lib/x86_64-linux-gnu/libXcursor.so
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found SDL: /usr/lib/x86_64-linux-gnu/libSDLmain.a;/usr/lib/x86_64-linux-gnu/libSDL.so;-lpthread (found version "1.2.15") 
+-- FMOD include files found at /home/blc/zandronum_build/zandronum/fmodapi42416linux64/api/inc
+-- FMOD library found at /usr/lib/libfmodex64-4.24.16.so
+-- Found FluidSynth: /usr/lib/x86_64-linux-gnu/libfluidsynth.so  
+-- Performing Test CAN_DO_CPP14
+-- Performing Test CAN_DO_CPP14 - Success
+-- Looking for filelength
+-- Looking for filelength - not found
+-- Looking for strupr
+-- Looking for strupr - not found
+-- Looking for stricmp
+-- Looking for stricmp - not found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Performing Test HAS_VA_COPY
+-- Performing Test HAS_VA_COPY - Success
+CMake Warning (dev) at src/CMakeLists.txt:641 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "updaterevision".  Use
+  the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Fluid synth libs: /usr/lib/x86_64-linux-gnu/libfluidsynth.so
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.0.2g") 
+CMake Warning (dev) at src/CMakeLists.txt:785 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "lemon".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at src/CMakeLists.txt:786 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "re2c".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+CMake Warning (dev) at gdtoa/CMakeLists.txt:48 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "/gd_qnan.h" of target "gdtoa" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at gdtoa/CMakeLists.txt:48 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target
+  "/home/blc/zandronum_build/zandronum/buildserver/gdtoa/arith.h" of target
+  "gdtoa" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/blc/zandronum_build/zandronum/buildserver
+Scanning dependencies of target gme
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Blip_Buffer.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Classic_Emu.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Data_Reader.cpp.o
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Dual_Resampler.cpp.o
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Dual_Resampler.cpp: In member function ‘void Dual_Resampler::play_frame_(Blip_Buffer&, Dual_Resampler::dsample_t*)’:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Dual_Resampler.cpp:72:7: warning: unused variable ‘count’ [-Wunused-variable]
+  long count = resampler.read( sample_buf.begin(), sample_buf_size );
+       ^~~~~
+[  1%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Effects_Buffer.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Fir_Resampler.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/gme.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gme_File.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/M3u_Playlist.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Multi_Buffer.cpp.o
+[  2%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Music_Emu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ay_Apu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ym2612_Emu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sms_Apu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ay_Cpu.cpp.o
+[  3%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ay_Emu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gb_Apu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gb_Cpu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gb_Oscs.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gbs_Emu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Gym_Emu.cpp.o
+[  4%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Hes_Apu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Hes_Cpu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Hes_Emu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Kss_Cpu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Kss_Emu.cpp.o
+[  5%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Kss_Scc_Apu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Apu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Cpu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Fme7_Apu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Namco_Apu.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Oscs.cpp.o
+[  6%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nes_Vrc6_Apu.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nsf_Emu.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Nsfe_Emu.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sap_Apu.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sap_Cpu.cpp.o
+[  7%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Sap_Emu.cpp.o
+[  8%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Snes_Spc.cpp.o
+[  8%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Cpu.cpp.o
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.cpp: In member function ‘void Snes_Spc::cpu_write(int, int, Snes_Spc::rel_time_t)’:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.cpp:438:39: warning: left shift of negative value [-Wshift-negative-value]
+    if ( ((~0x2F00 << (bits_in_int - 16)) << reg) < 0 ) // 36%
+                                       ^
+In file included from /home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.cpp:565:0:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.h: In member function ‘BOOST::uint8_t* Snes_Spc::run_until_(Snes_Spc::time_t)’:
+/home/blc/zandronum_build/zandronum/game-music-emu/gme/Spc_Cpu.h:298:40: warning: left shift of negative value [-Wshift-negative-value]
+     if ( ((~0x2F00 << (bits_in_int - 16)) << i) < 0 ) // 12%
+                                        ^
+[  8%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Dsp.cpp.o
+[  8%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Emu.cpp.o
+[  8%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Spc_Filter.cpp.o
+[  8%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Vgm_Emu.cpp.o
+[  9%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Vgm_Emu_Impl.cpp.o
+[  9%] Building CXX object game-music-emu/gme/CMakeFiles/gme.dir/Ym2413_Emu.cpp.o
+[  9%] Linking CXX static library libgme.a
+[  9%] Built target gme
+Scanning dependencies of target GeoIP
+[  9%] Building C object GeoIP/CMakeFiles/GeoIP.dir/GeoIP.o
+/home/blc/zandronum_build/zandronum/GeoIP/GeoIP.c: In function ‘_check_mtime’:
+/home/blc/zandronum_build/zandronum/GeoIP/GeoIP.c:629:10: warning: implicit declaration of function ‘gettimeofday’ [-Wimplicit-function-declaration]
+          gettimeofday(&t, NULL);
+          ^~~~~~~~~~~~
+[  9%] Linking C static library libGeoIP.a
+[  9%] Built target GeoIP
+Scanning dependencies of target updaterevision
+[  9%] Building C object tools/updaterevision/CMakeFiles/updaterevision.dir/updaterevision.o
+[  9%] Linking C executable updaterevision
+[  9%] Built target updaterevision
+Scanning dependencies of target revision_check
+src/gitinfo.h is up to date at commit ZA_2.1.2-541-0c331ba1c070.
+[  9%] Built target revision_check
+Scanning dependencies of target master-97
+[  9%] Building CXX object masterserver/CMakeFiles/master-97.dir/main.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/network.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/gitinfo.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/networkshared.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/platform.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/bitreader.o
+[ 10%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/bitwriter.o
+[ 11%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/huffcodec.o
+[ 11%] Building CXX object masterserver/CMakeFiles/master-97.dir/__/src/huffman/huffman.o
+[ 11%] Linking CXX executable master-97
+[ 11%] Built target master-97
+Scanning dependencies of target sqlite3
+[ 11%] Building C object sqlite/CMakeFiles/sqlite3.dir/sqlite3.o
+[ 11%] Linking C static library libsqlite3.a
+[ 11%] Built target sqlite3
+Scanning dependencies of target lzma
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/7zBuf.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/7zCrc.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/7zCrcOpt.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/7zDec.o
+[ 12%] Building C object lzma/CMakeFiles/lzma.dir/C/7zIn.o
+[ 13%] Building C object lzma/CMakeFiles/lzma.dir/C/7zStream.o
+[ 13%] Building C object lzma/CMakeFiles/lzma.dir/C/Bcj2.o
+[ 13%] Building C object lzma/CMakeFiles/lzma.dir/C/Bra.o
+[ 13%] Building C object lzma/CMakeFiles/lzma.dir/C/Bra86.o
+[ 13%] Building C object lzma/CMakeFiles/lzma.dir/C/CpuArch.o
+[ 13%] Building C object lzma/CMakeFiles/lzma.dir/C/LzFind.o
+[ 14%] Building C object lzma/CMakeFiles/lzma.dir/C/Lzma2Dec.o
+[ 14%] Building C object lzma/CMakeFiles/lzma.dir/C/LzmaDec.o
+[ 14%] Building C object lzma/CMakeFiles/lzma.dir/C/LzmaEnc.o
+/home/blc/zandronum_build/zandronum/lzma/C/LzmaEnc.c: In function ‘LzmaEnc_Alloc’:
+/home/blc/zandronum_build/zandronum/lzma/C/LzmaEnc.c:1900:8: warning: variable ‘btMode’ set but not used [-Wunused-but-set-variable]
+   Bool btMode;
+        ^~~~~~
+[ 14%] Linking C static library liblzma.a
+[ 14%] Built target lzma
+Scanning dependencies of target lemon
+[ 14%] Building C object tools/lemon/CMakeFiles/lemon.dir/lemon.o
+[ 14%] Linking C executable lemon
+/home/blc/zandronum_build/zandronum/buildserver/tools/lemon
+[ 14%] Built target lemon
+Scanning dependencies of target re2c
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/actions.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/code.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/dfa.o
+[ 14%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/main.o
+[ 15%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/mbo_getopt.o
+[ 15%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/parser.o
+[ 15%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/scanner.o
+[ 15%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/substr.o
+[ 15%] Building CXX object tools/re2c/CMakeFiles/re2c.dir/translate.o
+[ 16%] Linking CXX executable re2c
+[ 16%] Built target re2c
+Scanning dependencies of target zipdir
+[ 16%] Building C object tools/zipdir/CMakeFiles/zipdir.dir/zipdir.o
+[ 17%] Linking C executable zipdir
+[ 17%] Built target zipdir
+Scanning dependencies of target dumb
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/atexit.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/duhlen.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/duhtag.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/dumbfile.o
+[ 18%] Building C object dumb/CMakeFiles/dumb.dir/src/core/loadduh.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/core/makeduh.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/core/rawsig.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/core/readduh.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/core/register.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/core/rendduh.o
+[ 19%] Building C object dumb/CMakeFiles/dumb.dir/src/core/rendsig.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/core/unload.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/barray.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/blip_buf.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/clickrem.o
+[ 20%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/memfile.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/resample.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/riff.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/sampbuf.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/silence.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/helpers/stdfile.o
+[ 21%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itload.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itload2.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itmisc.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itorder.o
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itread.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/itread.c: In function ‘it_load_sigdata’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/itread.c:1000:6: warning: variable ‘cwt’ set but not used [-Wunused-but-set-variable]
+  int cwt, cmwt;
+      ^~~
+[ 22%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itread2.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itrender.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/itunload.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/load669.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/load6692.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadasy.o
+[ 23%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadasy2.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmod.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmod2.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmtm.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadmtm2.o
+[ 24%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadokt.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadokt2.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadoldpsm.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadoldpsm2.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadpsm.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadpsm2.o
+[ 25%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadptm.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadptm2.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadriff.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadriff2.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loads3m.o
+[ 26%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loads3m2.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadstm.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadstm2.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadxm.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/loadxm2.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/ptmeffect.o
+[ 27%] Building C object dumb/CMakeFiles/dumb.dir/src/it/read669.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/read6692.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readam.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readasy.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readdsmf.o
+[ 28%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readmod.o
+[ 29%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readmod2.o
+[ 29%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readmtm.o
+[ 29%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readokt.o
+[ 29%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readokt2.o
+[ 29%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readoldpsm.o
+[ 30%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readpsm.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c: In function ‘it_psm_process_sample’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c:61:6: warning: variable ‘panpos’ set but not used [-Wunused-but-set-variable]
+  int panpos;
+      ^~~~~~
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c: In function ‘it_psm_load_sigdata’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/readpsm.c:475:6: warning: variable ‘first_pattern’ set but not used [-Wunused-but-set-variable]
+  int first_pattern;
+      ^~~~~~~~~~~~~
+[ 30%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readptm.o
+[ 30%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readriff.o
+[ 30%] Building C object dumb/CMakeFiles/dumb.dir/src/it/reads3m.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/reads3m.c: In function ‘it_s3m_load_sigdata’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/reads3m.c:464:6: warning: variable ‘flags’ set but not used [-Wunused-but-set-variable]
+  int flags, ffi;
+      ^~~~~
+[ 30%] Building C object dumb/CMakeFiles/dumb.dir/src/it/reads3m2.o
+[ 30%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readstm.o
+[ 31%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readstm2.o
+[ 31%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readxm.o
+/home/blc/zandronum_build/zandronum/dumb/src/it/readxm.c: In function ‘it_xm_read_sample_data’:
+/home/blc/zandronum_build/zandronum/dumb/src/it/readxm.c:766:6: warning: variable ‘n_channels’ set but not used [-Wunused-but-set-variable]
+  int n_channels;
+      ^~~~~~~~~~
+[ 31%] Building C object dumb/CMakeFiles/dumb.dir/src/it/readxm2.o
+[ 31%] Building C object dumb/CMakeFiles/dumb.dir/src/it/xmeffect.o
+[ 31%] Linking C static library libdumb.a
+[ 31%] Built target dumb
+Scanning dependencies of target arithchk
+[ 31%] Building C object gdtoa/CMakeFiles/arithchk.dir/arithchk.o
+[ 31%] Linking C executable arithchk
+[ 31%] Built target arithchk
+[ 31%] Generating arith.h
+Scanning dependencies of target qnan
+[ 32%] Building C object gdtoa/CMakeFiles/qnan.dir/qnan.o
+[ 32%] Linking C executable qnan
+[ 32%] Built target qnan
+[ 32%] Generating gd_qnan.h
+Scanning dependencies of target gdtoa
+[ 32%] Building C object gdtoa/CMakeFiles/gdtoa.dir/dmisc.o
+[ 32%] Building C object gdtoa/CMakeFiles/gdtoa.dir/dtoa.o
+[ 32%] Building C object gdtoa/CMakeFiles/gdtoa.dir/misc.o
+[ 32%] Linking C static library libgdtoa.a
+[ 33%] Built target gdtoa
+Scanning dependencies of target protocolspec
+[ 33%] Built target protocolspec
+[ 33%] Generating xlat_parser.c, xlat_parser.h
+[ 34%] Generating sc_man_scanner.h
+Scanning dependencies of target zdoom
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/__autostart.o
+[ 34%] Building C object src/CMakeFiles/zdoom.dir/sdl/crashcatcher.o
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c: In function ‘cc_install_handlers’:
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c:441:3: warning: ignoring return value of ‘getcwd’, declared with attribute warn_unused_result [-Wunused-result]
+   getcwd(argv0, sizeof(argv0));
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c: In function ‘sys_info’:
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c:179:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  system("echo \"System: `uname -a`\"");
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c: In function ‘gdb_info’:
+/home/blc/zandronum_build/zandronum/src/sdl/crashcatcher.c:159:3: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+   system(cmd_buf);
+   ^~~~~~~~~~~~~~~
+[ 34%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/hardware.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_cd.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_input.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_joystick.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_main.o
+/home/blc/zandronum_build/zandronum/src/sdl/i_main.cpp: In function ‘int main(int, char**)’:
+/home/blc/zandronum_build/zandronum/src/sdl/i_main.cpp:254:21: warning: ignoring return value of ‘int seteuid(__uid_t)’, declared with attribute warn_unused_result [-Wunused-result]
+  seteuid (getuid ());
+                     ^
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_movie.o
+[ 35%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/i_system.o
+/home/blc/zandronum_build/zandronum/src/sdl/i_system.cpp: In function ‘unsigned int I_MakeRNGSeed()’:
+/home/blc/zandronum_build/zandronum/src/sdl/i_system.cpp:869:34: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+   read(file, &seed, sizeof(seed));
+                                  ^
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/sdlvideo.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/sdlglvideo.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/sdl/st_start.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/x86.o
+[ 36%] Building CXX object src/CMakeFiles/zdoom.dir/actorptrselect.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/am_map.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/announcer.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/astar.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/botcommands.o
+/home/blc/zandronum_build/zandronum/src/botcommands.cpp: In function ‘void botcmd_GetDistanceToEnemy(CSkullBot*)’:
+/home/blc/zandronum_build/zandronum/src/botcommands.cpp:1847:87: warning: ordered comparison of pointer with integer zero [-Wextra]
+  if (( pBot->m_ulPlayerEnemy != MAXPLAYERS ) && ( players[pBot->m_ulPlayerEnemy].mo > 0 ))
+                                                                                       ^
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/botpath.o
+[ 37%] Building CXX object src/CMakeFiles/zdoom.dir/bots.o
+/home/blc/zandronum_build/zandronum/src/bots.cpp: In member function ‘void CSkullBot::HandleAiming()’:
+/home/blc/zandronum_build/zandronum/src/bots.cpp:3391:31: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+     while ( (LONG)AngleRandom < 0 )
+             ~~~~~~~~~~~~~~~~~~^~~
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/browser.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/callvote.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/campaign.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/c_bind.o
+[ 38%] Building CXX object src/CMakeFiles/zdoom.dir/c_cmds.o
+/home/blc/zandronum_build/zandronum/src/c_cmds.cpp: In function ‘void Cmd_dir(FCommandLine&, APlayerPawn*, int)’:
+/home/blc/zandronum_build/zandronum/src/c_cmds.cpp:1055:16: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  chdir (curdir);
+                ^
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/c_console.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/c_cvars.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/c_dispatch.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/c_expr.o
+[ 39%] Building CXX object src/CMakeFiles/zdoom.dir/chat.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/cl_commands.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/cl_demo.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/cl_main.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/cl_pred.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/cl_statistics.o
+[ 40%] Building CXX object src/CMakeFiles/zdoom.dir/cmdlib.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/colormatcher.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/compatibility.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/configfile.o
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/d_dehacked.o
+/home/blc/zandronum_build/zandronum/src/d_dehacked.cpp: In function ‘bool D_LoadDehFile(const char*)’:
+/home/blc/zandronum_build/zandronum/src/d_dehacked.cpp:2418:38: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread(PatchFile, 1, PatchSize, deh);
+                                      ^
+[ 41%] Building CXX object src/CMakeFiles/zdoom.dir/d_iwad.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/d_main.o
+/home/blc/zandronum_build/zandronum/src/d_main.cpp: In function ‘void D_AddDirectory(const char*)’:
+/home/blc/zandronum_build/zandronum/src/d_main.cpp:2016:17: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+   chdir (curdir);
+                 ^
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/d_net.o
+/home/blc/zandronum_build/zandronum/src/d_net.cpp: In function ‘bool DoArbitrate(void*)’:
+/home/blc/zandronum_build/zandronum/src/d_net.cpp:1384:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (version != (0xFF0000 | NETGAMEVERSION))
+         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/d_netinfo.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/d_protocol.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/deathmatch.o
+[ 42%] Building CXX object src/CMakeFiles/zdoom.dir/decallib.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/dobject.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/dobjgc.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/dobjtype.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/domination.o
+[ 43%] Building CXX object src/CMakeFiles/zdoom.dir/doomdef.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/doomstat.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/dsectoreffect.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/dthinker.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/duel.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/f_wipe.o
+[ 44%] Building CXX object src/CMakeFiles/zdoom.dir/farchive.o
+/home/blc/zandronum_build/zandronum/src/farchive.cpp: In member function ‘void FCompressedFile::PostOpen()’:
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:195:28: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread (sig, 4, 1, m_File);
+                            ^
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:209:43: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fread (sizes, sizeof(DWORD), 2, m_File);
+                                           ^
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:214:38: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fread (m_Buffer+8, len, 1, m_File);
+                                      ^
+/home/blc/zandronum_build/zandronum/src/farchive.cpp: In constructor ‘FPNGChunkFile::FPNGChunkFile(FILE*, DWORD, size_t)’:
+/home/blc/zandronum_build/zandronum/src/farchive.cpp:599:39: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fread (m_Buffer, chunklen, 1, m_File);
+                                       ^
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/files.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/g_game.o
+/home/blc/zandronum_build/zandronum/src/g_game.cpp: In function ‘void G_DoLoadGame()’:
+/home/blc/zandronum_build/zandronum/src/g_game.cpp:4409:31: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread (&time, 8, 1, stdfile);
+                               ^
+/home/blc/zandronum_build/zandronum/src/g_game.cpp:4444:48: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fread (&multiplayerEmulation, 1, 1, stdfile);
+                                                ^
+/home/blc/zandronum_build/zandronum/src/g_game.cpp:4456:31: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread (&next, 1, 1, stdfile);
+                               ^
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/g_hub.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/g_level.o
+[ 45%] Building CXX object src/CMakeFiles/zdoom.dir/g_mapinfo.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/g_skill.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/gameconfigfile.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/gamemode.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/gi.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/gitinfo.o
+[ 46%] Building CXX object src/CMakeFiles/zdoom.dir/i_net.o
+/home/blc/zandronum_build/zandronum/src/i_net.cpp: In function ‘bool Host_CheckForConnects(void*)’:
+/home/blc/zandronum_build/zandronum/src/i_net.cpp:543:44: warning: array subscript is above array bounds [-Warray-bounds]
+      sendaddress[node] = sendaddress[node+1];
+                          ~~~~~~~~~~~~~~~~~~^
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/info.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/invasion.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/joinqueue.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/keysections.o
+[ 47%] Building CXX object src/CMakeFiles/zdoom.dir/lastmanstanding.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/lumpconfigfile.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/m_alloc.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/m_argv.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/m_bbox.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/m_cheat.o
+[ 48%] Building CXX object src/CMakeFiles/zdoom.dir/m_joy.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/m_misc.o
+/home/blc/zandronum_build/zandronum/src/m_misc.cpp: In function ‘void M_FindResponseFile()’:
+/home/blc/zandronum_build/zandronum/src/m_misc.cpp:209:35: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+      fread (file, size, 1, handle);
+                                   ^
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/m_oldrandom.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/m_png.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/m_random.o
+[ 49%] Building CXX object src/CMakeFiles/zdoom.dir/m_specialpaths.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/maprotation.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/memarena.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/md5.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/medal.o
+[ 50%] Building CXX object src/CMakeFiles/zdoom.dir/name.o
+[ 51%] Building CXX object src/CMakeFiles/zdoom.dir/network.o
+[ 51%] Building CXX object src/CMakeFiles/zdoom.dir/networkshared.o
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp: In member function ‘void NETADDRESS_s::LoadFromSocketAddress(const sockaddr_in&)’:
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp:627:17: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *(int *)&this->abIP = *(const int *)&sockaddr.sin_addr;
+                 ^~~~
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp: In member function ‘sockaddr_in NETADDRESS_s::ToSocketAddress() const’:
+/home/blc/zandronum_build/zandronum/src/networkshared.cpp:637:44: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *(int *)&result.sin_addr = *(const int *)&abIP;
+                                            ^~~~
+[ 51%] Building CXX object src/CMakeFiles/zdoom.dir/network/cl_auth.o
+[ 51%] Building CXX object src/CMakeFiles/zdoom.dir/network/netcommand.o
+[ 51%] Building CXX object src/CMakeFiles/zdoom.dir/network/nettraffic.o
+[ 51%] Building CXX object src/CMakeFiles/zdoom.dir/network/packetarchive.o
+[ 52%] Building CXX object src/CMakeFiles/zdoom.dir/network/servercommands.o
+/home/blc/zandronum_build/zandronum/src/network/servercommands.cpp: In function ‘bool CLIENT_ParseServerCommand(SVC, BYTESTREAM_s*)’:
+/home/blc/zandronum_build/zandronum/src/network/servercommands.cpp:2549:56: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+            reinterpret_cast<AActor *&>( command.weapon ),
+                                                        ^
+/home/blc/zandronum_build/zandronum/src/network/servercommands.cpp:2598:54: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+            reinterpret_cast<AActor *&>( command.item ),
+                                                      ^
+[ 52%] Building CXX object src/CMakeFiles/zdoom.dir/network/srp.o
+/home/blc/zandronum_build/zandronum/src/network/srp.cpp: In function ‘void init_random()’:
+/home/blc/zandronum_build/zandronum/src/network/srp.cpp:439:45: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(buff, sizeof(buff), 1, fp);
+                                             ^
+[ 52%] Building CXX object src/CMakeFiles/zdoom.dir/network/sv_auth.o
+[ 52%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild.o
+[ 52%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_classify_nosse2.o
+[ 53%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_events.o
+[ 53%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_extract.o
+[ 53%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_gl.o
+[ 53%] Building CXX object src/CMakeFiles/zdoom.dir/nodebuild_utility.o
+[ 53%] Building CXX object src/CMakeFiles/zdoom.dir/p_3dfloors.o
+[ 53%] Building CXX object src/CMakeFiles/zdoom.dir/p_3dmidtex.o
+[ 54%] Building CXX object src/CMakeFiles/zdoom.dir/p_acs.o
+/home/blc/zandronum_build/zandronum/src/p_acs.cpp: In member function ‘int DLevelScript::RunScript()’:
+/home/blc/zandronum_build/zandronum/src/p_acs.cpp:9929:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if ( NETWORK_GetState( ) == NETSTATE_SERVER )
+       ^~
+/home/blc/zandronum_build/zandronum/src/p_acs.cpp:9932:8: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+        activator->SetState (state);
+        ^~~~~~~~~
+[ 54%] Building CXX object src/CMakeFiles/zdoom.dir/p_buildmap.o
+[ 54%] Building CXX object src/CMakeFiles/zdoom.dir/p_ceiling.o
+[ 54%] Building CXX object src/CMakeFiles/zdoom.dir/p_conversation.o
+[ 54%] Building CXX object src/CMakeFiles/zdoom.dir/p_doors.o
+[ 55%] Building CXX object src/CMakeFiles/zdoom.dir/p_effect.o
+[ 55%] Building CXX object src/CMakeFiles/zdoom.dir/p_enemy.o
+[ 55%] Building CXX object src/CMakeFiles/zdoom.dir/p_floor.o
+[ 55%] Building CXX object src/CMakeFiles/zdoom.dir/p_glnodes.o
+[ 55%] Building CXX object src/CMakeFiles/zdoom.dir/p_interaction.o
+[ 55%] Building CXX object src/CMakeFiles/zdoom.dir/p_lights.o
+[ 56%] Building CXX object src/CMakeFiles/zdoom.dir/p_linkedsectors.o
+[ 56%] Building CXX object src/CMakeFiles/zdoom.dir/p_lnspec.o
+[ 56%] Building CXX object src/CMakeFiles/zdoom.dir/p_map.o
+[ 56%] Building CXX object src/CMakeFiles/zdoom.dir/p_maputl.o
+[ 56%] Building CXX object src/CMakeFiles/zdoom.dir/p_mobj.o
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp: In member function ‘bool AActor::AdjustReflectionAngle(AActor*, angle_t&)’:
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp:3800:33: error: invalid operands of types ‘__gnu_cxx::__enable_if<true, double>::__type {aka double}’ and ‘int’ to binary ‘operator>>’
+   if (abs (angle - thing->angle)>>24 > 45)
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp: In function ‘AActor* P_SpawnPlayerMissile(AActor*, fixed_t, fixed_t, fixed_t, const PClass*, angle_t, AActor**, AActor**, bool, bool, bool)’:
+/home/blc/zandronum_build/zandronum/src/p_mobj.cpp:7347:38: warning: left shift of negative value [-Wshift-negative-value]
+  static const int angdiff[3] = { -1<<26, 1<<26, 0 };
+                                      ^~
+src/CMakeFiles/zdoom.dir/build.make:3004: recipe for target 'src/CMakeFiles/zdoom.dir/p_mobj.o' failed
+make[2]: *** [src/CMakeFiles/zdoom.dir/p_mobj.o] Error 1
+CMakeFiles/Makefile2:995: recipe for target 'src/CMakeFiles/zdoom.dir/all' failed
+make[1]: *** [src/CMakeFiles/zdoom.dir/all] Error 2
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2
+[sudo] password for blc: 
+cp: cannot stat '/home/blc/zandronum_build/zandronum/buildclient/zandronum': No such file or directory
+cp: cannot stat '/home/blc/zandronum_build/zandronum/buildclient/zandronum.pk3': No such file or directory
+cp: cannot stat '/home/blc/zandronum_build/zandronum/buildclient/skulltag_actors.pk3': No such file or directory
+cp: cannot stat '/home/blc/zandronum_build/zandronum/buildclient/output_sdl/liboutput_sdl.so': No such file or directory
+cp: cannot stat '/home/blc/zandronum_build/zandronum/buildserver/zandronum-server': No such file or directory
+'/home/blc/zandronum_build/zandronum/fmodapi42416linux64/api/lib/libfmodex64-4.24.16.so' -> '/usr/games/zandronum/libfmodex64-4.24.16.so'
+'zandronum' -> '/usr/bin/zandronum'
+removed 'zandronum'
+'zandronum-server' -> '/usr/bin/zandronum-server'
+removed 'zandronum-server'
