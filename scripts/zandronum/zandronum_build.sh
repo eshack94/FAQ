@@ -1,6 +1,13 @@
 #!BIN/BASH
 
 #------------------------------
+#Install Prerequisites
+#------------------------------
+sudo apt-get install build-essential zlib1g-dev libsdl1.2-dev libjpeg-dev \
+nasm tar libbz2-dev libgtk2.0-dev cmake mercurial libfluidsynth-dev libgl1-mesa-dev \
+libssl-dev libglew-dev
+
+#------------------------------
 #Make zandronum_build directory
 #------------------------------
 mkdir -pv $HOME/zandronum_build
