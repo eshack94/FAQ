@@ -34,6 +34,8 @@
 
 [recursive list](https://github.com/brandleesee/blc/wiki/list-recursively-a-directory)
 
+[alias](https://github.com/brandleesee/blc/wiki/Alias)
+
 #### gnome
 
 [shell version](https://github.com/brandleesee/blc/wiki/Gnome-Shell-Version)
