@@ -16,3 +16,5 @@
 |  | [doomretro on ubuntu gnome](https://github.com/brandleesee/blc/wiki/DoomRetro-on-Ubuntu-Gnome-16.04-x64) |  |
 |  | **python3** |  |
 |  | [correct mathematical rounding](https://github.com/brandleesee/blc/wiki/Python3---Correct-MATHEMATICAL-Rounding) |  |
+|  | **scripts** |  |
+|  | [bash colours](https://github.com/brandleesee/blc/tree/master/scripts/colours) |  |
