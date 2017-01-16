@@ -1,9 +1,5 @@
 ## blc - wiki and tutorials
 
-[home](https://github.com/brandleesee/blc/wiki)
-
-### Contents
-
 #### ubuntu gnome
 
 [rolling release](https://github.com/brandleesee/blc/wiki/Ubuntu-Gnome-Rolling-Release)
