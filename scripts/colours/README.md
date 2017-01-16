@@ -1,4 +1,4 @@
-![](https://pbs.twimg.com/media/Cvt1icEXEAQcB4v.jpg:large)
+![](http://i.imgur.com/toYimnD.gif)
 
 ### script download (from terminal)
 
