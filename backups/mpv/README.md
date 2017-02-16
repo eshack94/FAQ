@@ -1,7 +1,8 @@
 ### mpv
 
 file to be placed in:
+    
+    /home/$USER/.config/mpv
+    
 
-  /home/$USER/.config/mpv
-  
-Mouse scroll changes volume levels.
+*Mouse scroll changes volume levels.*
