@@ -1,0 +1,1 @@
+alias update="sudo apt update && sudo apt -y full-upgrade && sudo apt -y autoremove --purge && sudo apt clean && cd /home/$USER/dash-to-panel && git pull && cd /home/$USER/TopIcons && git pull && cd /usr/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca && sudo git pull && cd /home/$USER"
