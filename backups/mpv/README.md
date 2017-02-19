@@ -17,3 +17,4 @@ Step-by-Step Via terminal:
     wget -O input.conf https://raw.githubusercontent.com/brandleesee/blc/master/backups/mpv/input.conf
     
 *Mouse scroll changes volume levels.*
+https://github.com/mpv-player/mpv/issues/3602
