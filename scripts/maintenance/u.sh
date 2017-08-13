@@ -1,6 +1,6 @@
 #!BIN/BASH
 
 sudo apt update
-sudo -y apt full-upgrade
+sudo apt -y full-upgrade
 sudo apt clean
-sudo -y apt autoremove
+sudo apt -y autoremove
