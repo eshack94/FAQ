@@ -1,6 +1,7 @@
 #!BIN/BASH
 
-sudo apt-get update
-sudo apt-get -y dist-upgrade
-sudo apt clean
-sudo apt -y autoremove
+sudo apt-get update -yy
+sudo apt-get dist-upgrade -yy
+sudo apt-get clean -yy
+sudo apt-get autoremove -yy
+sudo apt-get purge -yy
