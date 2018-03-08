@@ -1,7 +1,7 @@
 #!BIN/BASH
 
-sudo apt update -yy
-sudo apt full-upgrade -yy
+sudo apt update -y
+sudo apt full-upgrade -y
 sudo apt clean
-sudo apt autoremove -yy
-sudo apt purge -yy
+sudo apt autoremove -y
+sudo apt purge -y
