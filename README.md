@@ -1,7 +1,10 @@
 ## blc - wiki and tutorials
 
-|  | ubuntu gnome |  |
+
+|  | Ubuntu 17.10 |  |
 | :----------------------: | :----------------------: | :----------------------: |
+|  | [Removing Amazon](https://github.com/brandleesee/blc/wiki/Removing-Amazon) |  |
+|  | **ubuntu gnome** |  |
 | [distro to pen-drive](https://github.com/brandleesee/blc/wiki/Distro-to-Pen-Drive) | [rolling release](https://github.com/brandleesee/blc/wiki/Ubuntu-Gnome-Rolling-Release) | [adding ppas](https://github.com/brandleesee/blc/wiki/Ubuntu-Adding-PPAs) |
 | [scripts in home folder](https://github.com/brandleesee/blc/wiki/Scripts-in-Home-Folder) | [disk io scheduler](https://github.com/brandleesee/blc/wiki/Ubuntu-Disk-IO-Scheduler) | [list drives and partitions](https://github.com/brandleesee/blc/wiki/List-drives-&-partitions) |
 | [package list](https://github.com/brandleesee/blc/wiki/Ubuntu-Package-List) |  | [hardware spec list](https://github.com/brandleesee/blc/wiki/Laptop-Hardware-Specs) |
