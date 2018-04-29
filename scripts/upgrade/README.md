@@ -7,7 +7,7 @@ SUDO password required.
 ```
 wget -O release-upgrade.sh https://raw.githubusercontent.com/brandleesee/blc/master/scripts/upgrade/release-upgrade.sh
 
-bash release-upgrade.sh
+sudo bash release-upgrade.sh
 ```
 
 ### Links & tutorials
