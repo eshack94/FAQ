@@ -1,17 +1,17 @@
 #!/bin/bash
 
-sudo apt update -y
-sudo apt full-upgrade -y
-sudo apt clean
-sudo apt autoremove -y
-sudo apt purge -y
+apt update -y
+apt full-upgrade -y
+apt clean
+apt autoremove -y
+apt purge -y
 
 {
   if [[ $(dpkg -s update-manager-core) == "install ok installed" ]]; then
-    sudo do-release-upgrade
+    do-release-upgrade
   else
-    sudo apt install update-manager-core -y
-    sudo do-release-upgrade
+    apt install update-manager-core -y
+    do-release-upgrade
   fi
 }
 
