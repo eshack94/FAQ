@@ -1,6 +1,6 @@
-HOW TO Upgrade to Next Release
+## HOW TO Upgrade to Next Release
 
-## Usage
+### Usage
 
 SUDO password required.
 
