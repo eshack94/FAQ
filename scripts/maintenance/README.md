@@ -15,7 +15,7 @@ Use ` older_u.sh ` if the release is older.
 ```
 wget -O u.sh https://raw.githubusercontent.com/brandleesee/blc/master/scripts/maintenance/u.sh
 
-bash u.sh
+sudo bash u.sh
 ```
 
 **OR**
@@ -23,7 +23,7 @@ bash u.sh
 ```
 wget -O older_u.sh https://raw.githubusercontent.com/brandleesee/blc/master/scripts/maintenance/older_u.sh
 
-bash older_u.sh
+sudo bash older_u.sh
 ```
 
 * Enter SUDO password.
