@@ -1,4 +1,4 @@
-#!BIN/BASH
+#!/bin/bash
 
 #------------------------------
 #Updating Zandronum
