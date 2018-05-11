@@ -3,5 +3,5 @@
 apt update -y
 apt full-upgrade -y
 apt clean
-apt purge -y
-apt autoremove -y
+apt autoremove --purge -y
+rm -rf ~/.local/share/Trash/*
