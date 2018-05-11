@@ -1,0 +1,11 @@
+openbox-menu pipe
+https://youtu.be/6V54DEtgIuw?t=3m11s
+http://fabrice.thiroux.free.fr/openbox-menu_en.html
+
+Ctrl-Alt-T 
+to open terminal using keys
+http://openbox.org/wiki/Help:Bindings
+
+General Tutorial
+https://www.lifewire.com/install-openbox-using-ubuntu-4051832
+
