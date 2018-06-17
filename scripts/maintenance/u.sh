@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt update -y
-apt full-upgrade -y
+apt -qq update
+apt -qq full-upgrade
 apt clean
-apt autoremove --purge -y
+apt -qq autoremove --purge
 rm -rf ~/.local/share/Trash/*
