@@ -13,17 +13,6 @@ https://github.com/libretro/Lakka-LibreELEC/issues/429
 [07:56] == brandleesee [c39e4481@gateway/web/freenode/ip.195.158.68.129] has joined #lakkatv
 [07:57] <brandleesee> Hello all, good day, quick question, which image should I install for a Beelink S1 minipc? (specs from seller: https://www.gearbest.com/mini-pc/pp_825462.html?wid=1433363#goodsDetail). Thank you.
 [07:58] <brandleesee> To elaborate more, it has an Intel Apollo Lake chipset.
-[08:03] <discobot> <iSwiften> cunts
-[08:05] == discobot [~discobot@ip239.ip-158-69-149.net]
-[08:05] ==  realname : discobot
-[08:05] ==  channels : #lakkatv
-[08:05] ==  server   : barjavel.freenode.net [Paris, FR, EU]
-[08:05] == End of WHOIS
-[08:05] == discobot [~discobot@ip239.ip-158-69-149.net]
-[08:05] ==  realname : discobot
-[08:05] ==  channels : #lakkatv
-[08:05] ==  server   : barjavel.freenode.net [Paris, FR, EU]
-[08:05] == End of WHOIS
 [08:11] Ignored discobot, to unignore type: /UNIGNORE discobot
 [08:19] <vudiq> brandleesee: generix.x86_64
 [08:19] <vudiq> generic*
@@ -48,19 +37,6 @@ https://github.com/libretro/Lakka-LibreELEC/issues/429
 [11:10] <brandleesee> indeed, at one point there was something like "ring \storage" or similar. I'm assuming: Preparing....
 [11:12] <brandleesee> Question, pls: Online Updater only contains: Update Lakka, Thumbnails Updater & Content Downloader. I believe that both in WIndows and Linux are other options. How shall I go about this?
 [11:23] <brandleesee> Essentially, I am looking for the Update options.
-[11:34] == vudiq [vudiq@vps.vudiq.sk]
-[11:34] ==  realname : vudiq
-[11:34] ==  channels : #lakkatv
-[11:34] ==  server   : livingstone.freenode.net [New York City, NY, US]
-[11:34] ==           : is using a secure connection
-[11:34] ==  account  : vudiq
-[11:34] == End of WHOIS
-[11:34] == brandleesee [c39e4481@gateway/web/freenode/ip.195.158.68.129]
-[11:34] ==  realname : 195.158.68.129 - http://webchat.freenode.net
-[11:34] ==  channels : #lakkatv
-[11:34] ==  server   : herbert.freenode.net [Webchat]
-[11:34] ==  idle     : 0 days 0 hours 11 minutes 10 seconds [connected: Tue Jul 03 07:56:17 2018]
-[11:34] == End of WHOIS
 [11:40] <vudiq> brandleesee: what would you like to update? afaik the core updater is disabled in lakka, so those options you get are all you might need for lakka
 [11:41] <vudiq> but you can enable advanced options in settings -> user interface and then select more items to be display in settings -> user interface -> views (just toggle on/off what you want to be displayed)
 [11:44] <brandleesee> Need to update the assests as I only get black blocks instead of the Playstation and PSP icons (also including for games).
