@@ -1,4 +1,4 @@
-﻿http://www.lakka.tv/doc/Accessing-Lakka-command-line-interface/
+﻿http://www.lakka.tv/doc/Accessing-Lakka-command-line-interface/  
 https://askubuntu.com/questions/125257/how-do-i-add-an-additional-hard-drive
 http://www.smorgasbord.net/how-to-install-second-hard-drive-in-ubuntu-linux/
 http://linux-sys-adm.com/how-to-add-second-hdd-additional-disk-drive-in-ubuntu-14-04-linux/
