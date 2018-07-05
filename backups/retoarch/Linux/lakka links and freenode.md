@@ -10,6 +10,7 @@ https://askubuntu.com/questions/769974/how-to-automatically-mount-2nd-internal-h
 https://github.com/libretro/Lakka-LibreELEC/issues/478  
 https://github.com/libretro/Lakka-LibreELEC/issues/429  
   
+03 July 2018  
 [07:56] == brandleesee [c39e4481@gateway/web/freenode/ip.195.158.68.129] has joined #lakkatv  
 [07:57] <brandleesee> Hello all, good day, quick question, which image should I install for a Beelink S1 minipc? (specs from seller: https://www.gearbest.com/mini-pc/pp_825462.html?wid=1433363#goodsDetail). Thank you.  
 [07:58] <brandleesee> To elaborate more, it has an Intel Apollo Lake chipset.  
@@ -46,3 +47,12 @@ https://github.com/libretro/Lakka-LibreELEC/issues/429
 [11:56] <brandleesee> Menu Color Theme does not change, ie. Dark, Plain etc etc I still get the red background.  
 [11:57] <brandleesee> (even on restarting the program - Quit Retroarch)  
   
+05 July 2018  
+[19:07] == brandleesee [c39e4481@gateway/web/freenode/ip.195.158.68.129] has joined #lakkatv  
+[19:10] <brandleesee> hello again, I flashed version 2.1.1 on USB and managed to play playstation1 titles. However, I cannot get PPSSPP to work. When I run a psp game I get the Lakka flower logo and black background. Nothing else happens. I have to press escape to return to menu. Any thoughts/help, please? Thank you.  
+[19:23] <kivutar> it happens to me on some games  
+[19:23] <kivutar> but most are running fine for me  
+[19:23] <kivutar> I noticed a regresssion on only 1  
+[19:54] <brandleesee> hi kiv, long time no speak! ok understood, I ll add some more games and test (and relay feedback)  
+[20:07] <brandleesee> ...something is very wrong: Little Big Planet, Bust A Move Deluxe, Crash Team Tag Racing and Tekken Dark Resurrection all default to Lakka flower logo when run.  
+[20:09] <brandleesee> Shall I file a bug report on GitHub? or is there anything I can do right now, s'il vous plait? Thanks, man.  
