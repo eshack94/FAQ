@@ -33,8 +33,6 @@ https://github.com/libretro/Lakka-LibreELEC/issues/429
 [10:29] <vudiq> it prepares the storage partition /resize, format/  
 [10:29] <vudiq> but it should show some output, probably too much overscan and you do not see it on your tv  
 [10:30] <vudiq> try to set your tv to gaming mode / only scan - depending on your tv  
-[11:04] == radius [~radius@190.131.143.106] has quit [Ping timeout: 240 seconds]  
-[11:09] == radius [~radius@190.131.143.106] has joined #lakkatv  
 [11:10] <brandleesee> indeed, at one point there was something like "ring \storage" or similar. I'm assuming: Preparing....  
 [11:12] <brandleesee> Question, pls: Online Updater only contains: Update Lakka, Thumbnails Updater & Content Downloader. I believe that both in WIndows and Linux are other options. How shall I go about this?  
 [11:23] <brandleesee> Essentially, I am looking for the Update options.  
