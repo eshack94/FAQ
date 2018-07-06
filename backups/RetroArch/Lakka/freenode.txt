@@ -1,6 +1,5 @@
   
 03 July 2018  
-[07:56] == brandleesee [c39e4481@gateway/web/freenode/ip.195.158.68.129] has joined #lakkatv  
 [07:57] <brandleesee> Hello all, good day, quick question, which image should I install for a Beelink S1 minipc? (specs from seller: https://www.gearbest.com/mini-pc/pp_825462.html?wid=1433363#goodsDetail). Thank you.  
 [07:58] <brandleesee> To elaborate more, it has an Intel Apollo Lake chipset.  
 [08:11] Ignored discobot, to unignore type: /UNIGNORE discobot  
@@ -35,7 +34,6 @@
 [11:57] <brandleesee> (even on restarting the program - Quit Retroarch)  
   
 05 July 2018  
-[19:07] == brandleesee [c39e4481@gateway/web/freenode/ip.195.158.68.129] has joined #lakkatv  
 [19:10] <brandleesee> hello again, I flashed version 2.1.1 on USB and managed to play playstation1 titles. However, I cannot get PPSSPP to work. When I run a psp game I get the Lakka flower logo and black background. Nothing else happens. I have to press escape to return to menu. Any thoughts/help, please? Thank you.  
 [19:23] <kivutar> it happens to me on some games  
 [19:23] <kivutar> but most are running fine for me  
@@ -44,3 +42,6 @@
 [20:07] <brandleesee> ...something is very wrong: Little Big Planet, Bust A Move Deluxe, Crash Team Tag Racing and Tekken Dark Resurrection all default to Lakka flower logo when run.  
 [20:09] <brandleesee> Shall I file a bug report on GitHub? or is there anything I can do right now, s'il vous plait? Thanks, man.  
 [21:06] <brandleesee> one thing I want to add is that system\PPSSPP\ is full (.zim, flash0 etc)  
+  
+06 July 2018
+[10:28] <brandleesee> hello again, tried latest PPSSPP core x86_64 (uploaded yesterday), however, I get "lakka failed to open libretro core". Any thoughts? (itmt, used latest as built-in was relegating back to Lakka flower logo)  
