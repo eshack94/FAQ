@@ -1,6 +1,5 @@
 ## Hardware
-Beelink S1  
-https://www.gearbest.com/mini-pc/pp_825462.html?wid=1433363#goodsDetail
+Beelink S1 - https://www.gearbest.com/mini-pc/pp_825462.html?wid=1433363#goodsDetail  
   
 ## Getting logs!  
 * https://github.com/libretro/Lakka-LibreELEC/issues/486#issuecomment-398751808  
