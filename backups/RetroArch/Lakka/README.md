@@ -20,7 +20,7 @@ https://www.gearbest.com/mini-pc/pp_825462.html?wid=1433363#goodsDetail
 Add command to the bash script file: `  /storage/.config/autostart.sh  ` .  
   
 If file does not exist:  
-* it can be created using `  nano /storage/.config/autostart.sh  `  
+* create it using `  nano /storage/.config/autostart.sh  `  
 * first line: `  #!/bin/sh  `  
 * second line goes the *custom* command  
 * file is saved by pressing **Ctrl+X** while still in **nano**  
@@ -28,6 +28,11 @@ If file does not exist:
 * give *execute permission* right to the script: `  chmod +x /storage/.config/autostart.sh  `  
   
 https://github.com/libretro/Lakka-LibreELEC/issues/478#issuecomment-399373725  
+  
+## Purging core dumps
+`  rm -rf /storage/.cache/cores ; mkdir -p /storage/.cache/cores  `  
+  
+https://github.com/libretro/Lakka-LibreELEC/issues/478#issuecomment-399053189  
   
 ## Automounted drives
 Drives are automatically detected and mounted in `  \storage\roms\  `.  
