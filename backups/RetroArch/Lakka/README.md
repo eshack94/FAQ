@@ -37,7 +37,7 @@ https://github.com/libretro/Lakka-LibreELEC/issues/478#issuecomment-399053189
 ## Automounted drives
 Drives are automatically detected and mounted in `  \storage\roms\  `.  
   
-https://forums.libretro.com/t/adding-a-second-hard-drive/14058)
+https://forums.libretro.com/t/adding-a-second-hard-drive/14058
 
 ## Freenode experience
   
