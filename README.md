@@ -20,4 +20,4 @@
 |  | **scripts** |  |
 |  | [bash colours](https://github.com/brandleesee/blc/tree/master/scripts/colours) |  |
 |  | **DEPRECATED** |  |
-|  | [rolling release](https://github.com/brandleesee/blc/wiki/Ubuntu-Gnome-Rolling-Release) |  |
+|  | [ubuntu gnome rolling release](https://github.com/brandleesee/blc/wiki/DEPRECATED-Ubuntu-Gnome-Rolling-Release) |  |
