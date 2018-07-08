@@ -14,7 +14,7 @@
 |  | **images** |  |
 |  | [imagemagick, size, gifs ](https://github.com/brandleesee/blc/wiki/ImageMagick,-Resize,-GIFs) |  |
 |  | **games** |  |
-|  | [doomretro on ubuntu gnome](https://github.com/brandleesee/blc/wiki/DoomRetro-on-Ubuntu-Gnome-16.04-x64) |  |
+|  | [doomretro on ubuntu gnome](https://github.com/brandleesee/blc/wiki/DoomRetro-on-Ubuntu) |  |
 |  | **python3** |  |
 |  | [correct mathematical rounding](https://github.com/brandleesee/blc/wiki/Python3---Correct-MATHEMATICAL-Rounding) |  |
 |  | **scripts** |  |
