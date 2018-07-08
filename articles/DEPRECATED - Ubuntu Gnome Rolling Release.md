@@ -1,3 +1,5 @@
+# DEPRECATED - Ubuntu Gnome Rolling Release
+
 ## Preparation
 
 Clean Install with latest Ubuntu Gnome image
