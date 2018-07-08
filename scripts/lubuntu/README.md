@@ -3,7 +3,7 @@
 Script to strip *bloatware* from Lubuntu.
 
 ```
-wget -0 https://raw.githubusercontent.com/brandleesee/blc/master/scripts/lubuntu/strip_install.sh && sudo bash strip_install.sh
+wget -0 strip_install.sh https://raw.githubusercontent.com/brandleesee/blc/master/scripts/lubuntu/strip_install.sh && sudo bash strip_install.sh
 ```
 
 Do not remove firefox and gdebi until chrome is downloaded and installed.
