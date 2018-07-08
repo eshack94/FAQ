@@ -1,11 +1,9 @@
 ## blc - wiki and tutorials
 
 
-|  | Ubuntu 17.10 |  |
+|  | ubuntu gnome |  |
 | :----------------------: | :----------------------: | :----------------------: |
-|  | [Removing Amazon](https://github.com/brandleesee/blc/wiki/Removing-Amazon) |  |
-|  | **ubuntu gnome** |  |
-| [distro to pen-drive](https://github.com/brandleesee/blc/wiki/Distro-to-Pen-Drive) | [rolling release](https://github.com/brandleesee/blc/wiki/Ubuntu-Gnome-Rolling-Release) | [adding ppas](https://github.com/brandleesee/blc/wiki/Ubuntu-Adding-PPAs) |
+| [distro to pen-drive](https://github.com/brandleesee/blc/wiki/Distro-to-Pen-Drive) | | [adding ppas](https://github.com/brandleesee/blc/wiki/Ubuntu-Adding-PPAs) |
 | [scripts in home folder](https://github.com/brandleesee/blc/wiki/Scripts-in-Home-Folder) | [disk io scheduler](https://github.com/brandleesee/blc/wiki/Ubuntu-Disk-IO-Scheduler) | [list drives and partitions](https://github.com/brandleesee/blc/wiki/List-drives-&-partitions) |
 | [package list](https://github.com/brandleesee/blc/wiki/Ubuntu-Package-List) |  | [hardware spec list](https://github.com/brandleesee/blc/wiki/Laptop-Hardware-Specs) |
 | [empty trash](https://github.com/brandleesee/blc/wiki/Ubuntu-Empty-Trash) | [alias](https://github.com/brandleesee/blc/wiki/Alias) | [recursive list](https://github.com/brandleesee/blc/wiki/list-recursively-a-directory) |
@@ -21,3 +19,5 @@
 |  | [correct mathematical rounding](https://github.com/brandleesee/blc/wiki/Python3---Correct-MATHEMATICAL-Rounding) |  |
 |  | **scripts** |  |
 |  | [bash colours](https://github.com/brandleesee/blc/tree/master/scripts/colours) |  |
+|  | **DEPRECATED** |  |
+|  | [rolling release](https://github.com/brandleesee/blc/wiki/Ubuntu-Gnome-Rolling-Release) |  |
