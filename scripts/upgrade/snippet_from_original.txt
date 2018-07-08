@@ -1,8 +1,0 @@
-{
-  if [[ $(dpkg -s update-manager-core) == "install ok installed" ]]; then
-    do-release-upgrade
-  else
-    apt install update-manager-core -y
-    do-release-upgrade
-  fi
-}
