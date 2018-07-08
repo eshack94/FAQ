@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt-get update -y
-apt-get dist-upgrade -y
-apt-get clean
-apt-get autoremove -y
-apt-get purge -y
+apt-get -y update 
+apt-get -y dist-upgrade 
+apt-get -y autoremove 
+apt-get -y purge 
+apt-get clean 
