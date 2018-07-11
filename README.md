@@ -184,13 +184,13 @@ y {Enter}
 
     curl http://wttr.in/valletta
 
-### list recursively a directory
+### list recursively a directory including hidden files and folders
 
 ***To list the contents of a folder and folders within said folder***
 
-    ls -R Pictures
+    ls -aR Pictures
     
-    sudo ls -R '/usr/share/themes/macOS Sierra'
+    sudo ls -aR '/usr/share/themes/macOS Sierra'
 
 ### Setting up an Alias
 
