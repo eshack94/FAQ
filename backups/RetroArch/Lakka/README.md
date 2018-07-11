@@ -2,12 +2,24 @@
 Beelink S1 - https://www.gearbest.com/mini-pc/pp_825462.html?wid=1433363#goodsDetail  
   
 ## Getting logs!  
+```
+On boot:
+{TAB}
+live textmode
+{ENTER}
+... wait ... Lakka flower logo, wait until command prompt is available
+LIBGL_DEBUG=verbose retroarch --menu --verbose >> log.txt 2>&1
+{ENTER}
+to note that the GUI becomes aesthetically pixleated and unpleasing
+```
+  
 * https://github.com/libretro/Lakka-LibreELEC/issues/486#issuecomment-398751808  
 * http://www.lakka.tv/doc/Troubleshooting-Lakka/  
 * https://forums.libretro.com/t/lakka-pc-not-responding/6522/9  
 * https://forums.libretro.com/t/lakka-how-to-access-command-line/9653/11  
 * http://www.lakka.tv/doc/Accessing-Lakka-command-line-interface/  
 * http://www.lakka.tv/doc/Configuring-Lakka/  
+* https://wiki.openelec.tv/index.php/Boot_Arguments  
   
 ## Updating Cores
 * https://forums.libretro.com/t/how-to-update-cores-in-lakka-pi-3/14809/
