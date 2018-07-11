@@ -1,0 +1,260 @@
+[INFO] RetroArch 1.7.3 (Git 2a2e732)
+[INFO] === Build =======================================
+Capabilities: MMX MMXEXT SSE1 SSE2 SSE3 SSSE3 SSE4 SSE4.2 AES 
+Built: Jun 23 2018
+[INFO] Version: 1.7.3
+[INFO] Git: 2a2e732
+[INFO] =================================================
+[INFO] Environ SET_PIXEL_FORMAT: RGB565.
+[INFO] Redirecting save file to "/storage/savefiles/.srm".
+[INFO] Redirecting savestate to "/storage/savestates/.state".
+[INFO] Version of libretro API: 1
+[INFO] Compiled against API: 1
+[INFO] [Audio]: Set audio input rate to: 29970.03 Hz.
+[INFO] [Video]: Video @ fullscreen
+[INFO] [Video]: Starting threaded video driver ...
+[INFO] [DRM]: Found 4 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 34 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Connector 2 connected: no
+[INFO] [DRM]: Connector 2 has 0 modes.
+[INFO] [DRM]: Connector 3 connected: no
+[INFO] [DRM]: Connector 3 has 0 modes.
+[INFO] [DRM]: Mode 0: (1920x1080) 1920 x 1080, 50 Hz
+[INFO] [DRM]: Mode 1: (1920x1080) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 2: (1920x1080) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 3: (1920x1080i) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 4: (1920x1080i) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 5: (1920x1080i) 1920 x 1080, 50 Hz
+[INFO] [DRM]: Mode 6: (1920x1080) 1920 x 1080, 30 Hz
+[INFO] [DRM]: Mode 7: (1920x1080) 1920 x 1080, 30 Hz
+[INFO] [DRM]: Mode 8: (1920x1080) 1920 x 1080, 25 Hz
+[INFO] [DRM]: Mode 9: (1920x1080) 1920 x 1080, 24 Hz
+[INFO] [DRM]: Mode 10: (1920x1080) 1920 x 1080, 24 Hz
+[INFO] [DRM]: Mode 11: (1280x1024) 1280 x 1024, 75 Hz
+[INFO] [DRM]: Mode 12: (1280x1024) 1280 x 1024, 60 Hz
+[INFO] [DRM]: Mode 13: (1280x720) 1280 x 720, 60 Hz
+[INFO] [DRM]: Mode 14: (1280x720) 1280 x 720, 60 Hz
+[INFO] [DRM]: Mode 15: (1280x720) 1280 x 720, 50 Hz
+[INFO] [DRM]: Mode 16: (1024x768) 1024 x 768, 75 Hz
+[INFO] [DRM]: Mode 17: (1024x768) 1024 x 768, 72 Hz
+[INFO] [DRM]: Mode 18: (1024x768) 1024 x 768, 70 Hz
+[INFO] [DRM]: Mode 19: (1024x768) 1024 x 768, 60 Hz
+[INFO] [DRM]: Mode 20: (800x600) 800 x 600, 75 Hz
+[INFO] [DRM]: Mode 21: (800x600) 800 x 600, 72 Hz
+[INFO] [DRM]: Mode 22: (800x600) 800 x 600, 60 Hz
+[INFO] [DRM]: Mode 23: (720x576) 720 x 576, 50 Hz
+[INFO] [DRM]: Mode 24: (720x576i) 720 x 576, 50 Hz
+[INFO] [DRM]: Mode 25: (720x480) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 26: (720x480) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 27: (720x480i) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 28: (720x480i) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 29: (640x480) 640 x 480, 75 Hz
+[INFO] [DRM]: Mode 30: (640x480) 640 x 480, 73 Hz
+[INFO] [DRM]: Mode 31: (640x480) 640 x 480, 60 Hz
+[INFO] [DRM]: Mode 32: (640x480) 640 x 480, 60 Hz
+[INFO] [DRM]: Mode 33: (720x400) 720 x 400, 70 Hz
+libGL: Can't open configuration file /storage/.drirc: No such file or directory.
+[INFO] [GL]: Found GL context: kms
+[INFO] [GL]: Detecting screen resolution 1920x1080.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+libGL: Can't open configuration file /storage/.drirc: No such file or directory.
+[INFO] [EGL]: Current context: 0x7f41bc135df0.
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] [GL]: Vendor: Intel Open Source Technology Center, Renderer: Mesa DRI Intel(R) HD Graphics 500 (Broxton 2x6) .
+[INFO] [GL]: Version: 3.0 Mesa 17.1.3.
+[INFO] [GL]: Using resolution 1920x1080
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Checking GLSL shader support ...
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] Resetting shader to defaults ... 
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [GL]: Using GL_RGB565 for texture uploads.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[INFO] [udev]: Keyboard #0 (/dev/input/event3).
+[INFO] [udev]: Keyboard #1 (/dev/input/event5).
+[ERROR] [udev] Failed to open device: /dev/input/event4 (Success).
+[INFO] [udev]: Mouse #0 (/dev/input/mouse0).
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: null
+[INFO] ALSA: Using signed 16-bit format.
+[INFO] ALSA: Period size: 1024 frames
+[INFO] ALSA: Buffer size: 2048 frames
+[INFO] [Menu]: Found menu display driver: "menu_display_gl".
+[ERROR] Failed to create rendering backend: freetype.
+Failed to open /tmp/assets/glui/font.ttf: No such file or directory
+[ERROR] Failed to create rendering backend: stb.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] Failed to create rendering backend: freetype.
+Failed to open /tmp/assets/glui/font.ttf: No such file or directory
+[ERROR] Failed to create rendering backend: stb.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [LED]: LED driver = 'null' 0x76a0c0
+[INFO] [MIDI]: Initializing ...
+[INFO] [MIDI]: Input disabled.
+[INFO] [MIDI]: Output disabled.
+[INFO] [MIDI]: Initialized "null" driver.
+[WARN] Input device ID 5 is unknown to this libretro implementation. Using RETRO_DEVICE_JOYPAD.
+[WARN] Input device ID 5 is unknown to this libretro implementation. Using RETRO_DEVICE_JOYPAD.
+[INFO] SRAM will not be saved.
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] Using content: /storage/roms/media/roms/Sony - Playstation Portable/Little Big Planet (USA).iso.
+[INFO] arg #0: retroarch
+[INFO] arg #1: /storage/roms/media/roms/Sony - Playstation Portable/Little Big Planet (USA).iso
+[INFO] arg #2: -s
+[INFO] arg #3: /storage/savefiles
+[INFO] arg #4: -S
+[INFO] arg #5: /storage/savestates
+[INFO] arg #6: -c
+[INFO] arg #7: /storage/.config/retroarch/retroarch.cfg
+[INFO] arg #8: -L
+[INFO] arg #9: /tmp/cores/ppsspp_libretro.so
+function is no-op
+function is no-op
+function is no-op
+[INFO] Threaded video stats: Frames pushed: 1471, Frames dropped: 0.
+[INFO] Set config file to : /storage/.config/retroarch/retroarch.cfg
+[WARN] --libretro argument "/tmp/cores/ppsspp_libretro.so" is neither a file nor directory. Ignoring.
+[INFO] RetroArch 1.7.3 (Git 2a2e732)
+[INFO] Redirecting save file to "/storage/savefiles/Little Big Planet (USA).srm".
+[INFO] Redirecting savestate to "/storage/savestates/Little Big Planet (USA).state".
+[INFO] === Build =======================================
+Capabilities: MMX MMXEXT SSE1 SSE2 SSE3 SSSE3 SSE4 SSE4.2 AES 
+Built: Jun 23 2018
+[INFO] Version: 1.7.3
+[INFO] Git: 2a2e732
+[INFO] =================================================
+[INFO] Loading dynamic libretro core from: "/tmp/cores/ppsspp_libretro.so"
+[ERROR] Failed to open libretro core: "/tmp/cores/ppsspp_libretro.so"
+[ERROR] Error(s): /tmp/cores/ppsspp_libretro.so: cannot open shared object file: No such file or directory
+[INFO] Environ SET_PIXEL_FORMAT: RGB565.
+[INFO] Redirecting save file to "/storage/savefiles/Little Big Planet (USA).srm".
+[INFO] Redirecting savestate to "/storage/savestates/Little Big Planet (USA).state".
+[INFO] Version of libretro API: 1
+[INFO] Compiled against API: 1
+[INFO] [Audio]: Set audio input rate to: 29970.03 Hz.
+[INFO] [Video]: Video @ fullscreen
+[INFO] [Video]: Starting threaded video driver ...
+[INFO] [DRM]: Found 4 connectors.
+[INFO] [DRM]: Connector 0 connected: no
+[INFO] [DRM]: Connector 0 has 0 modes.
+[INFO] [DRM]: Connector 1 connected: yes
+[INFO] [DRM]: Connector 1 has 34 modes.
+[INFO] [DRM]: Connector 1 assigned to monitor index: #1.
+[INFO] [DRM]: Connector 2 connected: no
+[INFO] [DRM]: Connector 2 has 0 modes.
+[INFO] [DRM]: Connector 3 connected: no
+[INFO] [DRM]: Connector 3 has 0 modes.
+[INFO] [DRM]: Mode 0: (1920x1080) 1920 x 1080, 50 Hz
+[INFO] [DRM]: Mode 1: (1920x1080) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 2: (1920x1080) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 3: (1920x1080i) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 4: (1920x1080i) 1920 x 1080, 60 Hz
+[INFO] [DRM]: Mode 5: (1920x1080i) 1920 x 1080, 50 Hz
+[INFO] [DRM]: Mode 6: (1920x1080) 1920 x 1080, 30 Hz
+[INFO] [DRM]: Mode 7: (1920x1080) 1920 x 1080, 30 Hz
+[INFO] [DRM]: Mode 8: (1920x1080) 1920 x 1080, 25 Hz
+[INFO] [DRM]: Mode 9: (1920x1080) 1920 x 1080, 24 Hz
+[INFO] [DRM]: Mode 10: (1920x1080) 1920 x 1080, 24 Hz
+[INFO] [DRM]: Mode 11: (1280x1024) 1280 x 1024, 75 Hz
+[INFO] [DRM]: Mode 12: (1280x1024) 1280 x 1024, 60 Hz
+[INFO] [DRM]: Mode 13: (1280x720) 1280 x 720, 60 Hz
+[INFO] [DRM]: Mode 14: (1280x720) 1280 x 720, 60 Hz
+[INFO] [DRM]: Mode 15: (1280x720) 1280 x 720, 50 Hz
+[INFO] [DRM]: Mode 16: (1024x768) 1024 x 768, 75 Hz
+[INFO] [DRM]: Mode 17: (1024x768) 1024 x 768, 72 Hz
+[INFO] [DRM]: Mode 18: (1024x768) 1024 x 768, 70 Hz
+[INFO] [DRM]: Mode 19: (1024x768) 1024 x 768, 60 Hz
+[INFO] [DRM]: Mode 20: (800x600) 800 x 600, 75 Hz
+[INFO] [DRM]: Mode 21: (800x600) 800 x 600, 72 Hz
+[INFO] [DRM]: Mode 22: (800x600) 800 x 600, 60 Hz
+[INFO] [DRM]: Mode 23: (720x576) 720 x 576, 50 Hz
+[INFO] [DRM]: Mode 24: (720x576i) 720 x 576, 50 Hz
+[INFO] [DRM]: Mode 25: (720x480) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 26: (720x480) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 27: (720x480i) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 28: (720x480i) 720 x 480, 60 Hz
+[INFO] [DRM]: Mode 29: (640x480) 640 x 480, 75 Hz
+[INFO] [DRM]: Mode 30: (640x480) 640 x 480, 73 Hz
+[INFO] [DRM]: Mode 31: (640x480) 640 x 480, 60 Hz
+[INFO] [DRM]: Mode 32: (640x480) 640 x 480, 60 Hz
+[INFO] [DRM]: Mode 33: (720x400) 720 x 400, 70 Hz
+libGL: Can't open configuration file /storage/.drirc: No such file or directory.
+[INFO] [GL]: Found GL context: kms
+[INFO] [GL]: Detecting screen resolution 1920x1080.
+[INFO] [EGL] Found EGL_EXT_platform_base, trying eglGetPlatformDisplayEXT
+[INFO] [EGL]: EGL version: 1.4
+libGL: Can't open configuration file /storage/.drirc: No such file or directory.
+[INFO] [EGL]: Current context: 0x7f41b4121ec0.
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] [GL]: Vendor: Intel Open Source Technology Center, Renderer: Mesa DRI Intel(R) HD Graphics 500 (Broxton 2x6) .
+[INFO] [GL]: Version: 3.0 Mesa 17.1.3.
+[INFO] [GL]: Using resolution 1920x1080
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Checking GLSL shader support ...
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] Resetting shader to defaults ... 
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [GL]: Using GL_RGB565 for texture uploads.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[INFO] [udev]: Keyboard #0 (/dev/input/event3).
+[INFO] [udev]: Keyboard #1 (/dev/input/event5).
+[ERROR] [udev] Failed to open device: /dev/input/event4 (Success).
+[INFO] [udev]: Mouse #0 (/dev/input/mouse0).
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: null
+[INFO] ALSA: Using signed 16-bit format.
+[INFO] ALSA: Period size: 1024 frames
+[INFO] ALSA: Buffer size: 2048 frames
+[ERROR] Failed to open libretro core: "/tmp/cores/ppsspp_libretro.so"
+[ERROR] Error(s): /tmp/cores/ppsspp_libretro.so: cannot open shared object file: No such file or directory
+[ERROR] Failed to create rendering backend: freetype.
+Failed to open /tmp/assets/glui/font.ttf: No such file or directory
+[ERROR] Failed to create rendering backend: stb.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] Failed to create rendering backend: freetype.
+Failed to open /tmp/assets/glui/font.ttf: No such file or directory
+[ERROR] Failed to create rendering backend: stb.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [LED]: LED driver = 'null' 0x76a0c0
+[INFO] [MIDI]: Initializing ...
+[INFO] [MIDI]: Input disabled.
+[INFO] [MIDI]: Output disabled.
+[INFO] [MIDI]: Initialized "null" driver.
+[WARN] Input device ID 5 is unknown to this libretro implementation. Using RETRO_DEVICE_JOYPAD.
+[WARN] Input device ID 5 is unknown to this libretro implementation. Using RETRO_DEVICE_JOYPAD.
+[INFO] SRAM will not be saved.
+[ERROR] Failed to open libretro core: "/tmp/cores/ppsspp_libretro.so"
+[ERROR] Error(s): /tmp/cores/ppsspp_libretro.so: cannot open shared object file: No such file or directory
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] [KMS]: New FB: 1920x1080 (stride: 7680).
+[INFO] [Config]: Saved new config to "/storage/.config/retroarch/retroarch.cfg".
