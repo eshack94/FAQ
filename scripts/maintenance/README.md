@@ -1,4 +1,4 @@
-# Simple Maintenance Scripts
+# Simple Maintenance Script
 
 ## Overview
 
