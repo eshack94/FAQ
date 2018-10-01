@@ -1,4 +1,4 @@
-# Simple Maintenance Script
+# Ubuntu Maintenance Script
 
 ## Overview
 
